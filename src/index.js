@@ -1,10 +1,14 @@
 import React from 'react';
 import  ReactDOM  from 'react-dom';
 import  NavBar  from './components/NavBar';
-import './NavBar.css'
+
+
+import './components/styles/NavBar.css'
 
 
 const divRoot = document.querySelector('#fenixApp');
 
-
-ReactDOM.render (<NavBar/>, divRoot);
+const Navbar =(
+    <NavBar/>
+)
+ReactDOM.render (Navbar, divRoot);

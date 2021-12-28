@@ -1,11 +1,12 @@
-import React from 'react';
-
+import React, { useState } from 'react';
 
 const NavBar = () => {
-    return (
 
+
+    const state = useState('goku');
+    return (
         <>
-            <div className='orderNav'>
+            <nav className='orderNav'>
                 <img className="logoNav" src="https://img.freepik.com/vector-gratis/plantilla-logotipo-ave-fenix_15146-286.jpg?size=338&ext=jpg" alt="LogoFenix" />
                 <div className='titleNav'>Fenix Fit</div>
 
@@ -16,10 +17,12 @@ const NavBar = () => {
                 </ol>
 
                 <div className='orderButton'>
-                    <button> <a href="#">Inicia Sesión</a> </button>
-                    <button> <a href="#">Regístrate</a> </button>
+
+
+                    <button><a href="#">Inicia Sesión</a> </button>
+                    <button><a href="#">Regístrate</a> </button>
                 </div>
-            </div>
+            </nav>
         </>
 
     )
