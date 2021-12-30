@@ -10,8 +10,8 @@ import Slogan from './components/Slogan';
 
 
 ReactDOM.render (
-    <React.StrictMode>
-    <>
+<React.StrictMode>
+         <>
             <NavBar/>,
             <hr/>,
             <Main1/>,
@@ -23,7 +23,7 @@ ReactDOM.render (
             <Slogan/>
             <hr/>
             <Footer/>,
-    </>,
+        </>
     </React.StrictMode>,
      document.querySelector('#root')
     );
