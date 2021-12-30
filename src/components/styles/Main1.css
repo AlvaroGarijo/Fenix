@@ -1,0 +1,44 @@
+.orderMain {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+span {
+    color: rgb(179, 179, 0);
+    font-style: oblique;
+}
+
+.imgMain {
+    width: 488px;
+    height: 488px;
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-right: 80px;
+}
+
+.cuadroOpaco {
+    display: flex;
+    flex-direction: row;
+    margin-right: 150px;
+    margin-left: 150px;
+    width: 151px;
+    height: 484px;
+    border: 2px solid black;
+    border-radius: 10px;
+    z-index: 1;
+}
+
+.Digital {
+    text-align: right;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 100%;
+}
+
+.useFenix {
+    text-align: right;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    flex-direction: column;
+}

@@ -27,6 +27,7 @@
 }
 
 .listNav {
+    flex-wrap: wrap;
     width: 30%;
     margin-top: 30px;
     margin-right: 5%;
@@ -40,6 +41,7 @@
 
 .orderButton {
     display: flex;
+    flex-wrap: wrap;
     justify-content: right;
 }
 

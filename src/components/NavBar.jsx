@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
+import './styles/NavBar.css'
 
 const NavBar = () => {
 
-
-    const state = useState('goku');
+    const state = useState('');
     return (
         <>
             <nav className='orderNav'>
