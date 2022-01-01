@@ -15,7 +15,6 @@ ReactDOM.render (
             <NavBar/>,
             <hr/>,
             <Main1/>,
-            <hr/>
             <Main2/>,
             <hr/>
             <Cards/>,

@@ -1,64 +1,78 @@
 * {
     margin: 0;
+
 }
 
 .orderNav {
-    width: 100%;
     display: flex;
     flex-direction: row;
     margin-top: 30px;
+
 }
 
 .logoNav {
     margin-left: 50px;
     width: 90px;
     height: 90px;
+
 }
 
 .titleNav {
-    width: 190px;
+    width: 300px;
     height: 95px;
     margin-top: 20px;
+    margin-right: 20%;
     font-style: normal;
     font-size: 2.5rem;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: #d9d9d9;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #acabab;
     text-align: center;
+
+}
+
+.orderListNav {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
 }
 
 .listNav {
-    flex-wrap: wrap;
-    width: 30%;
-    margin-top: 30px;
-    margin-right: 5%;
+    width: 50%;
+    margin-top: 40px;
+    padding-right: 30px;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1rem;
+    font-size: 1.2rem;
     list-style: none;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+
 }
 
 .orderButton {
+    width: 30%;
     display: flex;
     flex-wrap: wrap;
     justify-content: right;
+
 }
 
 button {
     margin-top: 10px;
     margin-right: 10px;
     color: white;
-    width: 120px;
-    height: 50px;
+    width: 200px;
+    height: 60px;
     font-size: 1rem;
     background: #2E00AF;
     border: 1px solid #7448ee;
     border-radius: 10px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
 }
 
 a {
     color: inherit;
     text-decoration: none;
+
 }

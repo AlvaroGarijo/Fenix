@@ -26,7 +26,7 @@ export const Footer = () => {
                         </li >
                         <li className="list">
                             <a href="https://github.com/">
-                                <img className="icons" src="https://cdn-icons.flaticon.com/png/512/3291/premium/3291695.png?token=exp=1640851771~hmac=08c8da17df20ce2ffaf55eaad9393f12" alt="githubIcon" />
+                                <img className="icons" src="https://cdn-icons-png.flaticon.com/512/1051/1051326.png" alt="githubIcon" />
                             </a >
                         </li >
                         <li className='list'>
