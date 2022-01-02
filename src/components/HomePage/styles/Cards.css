@@ -1,0 +1,53 @@
+h2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 80px auto;
+    font-style: oblique;
+}
+
+.card {
+    background: #030C22;
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 10px;
+    width: 350px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.card-icon {
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+}
+
+.letters {
+    display: flex;
+    justify-content: center;
+    background: white;
+    margin: 5px;
+    height: 165px;
+    padding: 40px;
+    border-radius: 0px 0px 10px 10px;
+
+}
+
+h4.letters {
+    margin: auto;
+}
+
+@media only screen and (min-width: 500px) {
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+        width: 90%;
+    }
+}

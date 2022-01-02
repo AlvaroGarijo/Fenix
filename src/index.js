@@ -9,20 +9,20 @@ import { Cards } from './components/HomePage/Cards';
 import Slogan from './components/HomePage/Slogan';
 
 
+
 ReactDOM.render (
-<React.StrictMode>
+//HomePage Renderizada
          <>
             <NavBar/>,
             <hr/>,
             <Main1/>,
             <Main2/>,
-            <hr/>
             <Cards/>,
             <hr/>
             <Slogan/>
             <hr/>
             <Footer/>,
-        </>
-    </React.StrictMode>,
+        </>,
+
      document.querySelector('#root')
-    );
+);
