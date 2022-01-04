@@ -7,9 +7,10 @@ const NavBar = () => {
     return (
         <>
             <nav className='orderNav'>
-                <img className="logoNav" src="https://img.freepik.com/vector-gratis/plantilla-logotipo-ave-fenix_15146-286.jpg?size=338&ext=jpg" alt="LogoFenix" />
-                <div className='titleNav'> <a href="./">Fenix Fit</a> </div>
-
+                <div className='orderLogo' >
+                    <img className="logoNav" src="https://img.freepik.com/vector-gratis/plantilla-logotipo-ave-fenix_15146-286.jpg?size=338&ext=jpg" alt="LogoFenix" />
+                    <div className='titleNav'> <a href="./">Fenix Fit</a> </div>
+                </div>
                 <div className='orderListNav'>
                     <ol className='listNav'>
                         <li> <a href="./FenixFit">Fenix Fit</a></li>
@@ -18,8 +19,8 @@ const NavBar = () => {
                     </ol>
 
                     <div className='orderButton'>
-                        <button><a href="./InicioSesion">Inicia Sesión</a> </button>
-                        <button><a href="./Registro">Regístrate</a> </button>
+                        <button className='iniciaSesion'><a href="./InicioSesion">Inicia Sesión</a> </button>
+                        <button className='login'><a href="./Registro">Login</a></button>
                     </div>
                 </div>
             </nav>

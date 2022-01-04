@@ -1,0 +1,32 @@
+.containerA {
+
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.slogan {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+    border-radius: 10px;
+    width: 200px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 50px;
+    margin: 15px;
+    border-left: 1px dashed gray;
+
+}
+
+.img {
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px gray;
+    width: 300px;
+    height: 200px;
+    margin: 15px;
+
+}
