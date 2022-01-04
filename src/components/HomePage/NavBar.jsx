@@ -20,7 +20,7 @@ const NavBar = () => {
 
                     <div className='orderButton'>
                         <button className='iniciaSesion'><a href="./InicioSesion">Inicia Sesión</a> </button>
-                        <button className='login'><a href="./Registro">Login</a></button>
+                        <button className='login'><a href="./Login">Login</a></button>
                     </div>
                 </div>
             </nav>
