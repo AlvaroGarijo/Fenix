@@ -9,6 +9,7 @@
     flex-direction: row;
     justify-content: space-around;
     width: 100%;
+    height: 140px;
     border-bottom: 2px solid rgb(203, 218, 249)
 }
 
@@ -39,7 +40,8 @@
 .orderListNav {
     display: flex;
     flex-direction: row;
-    justify-content: end;
+    justify-content: center;
+    align-items: center;
 
 
 }
@@ -61,13 +63,14 @@
 .orderButton {
     display: flex;
     flex-wrap: wrap;
-    justify-content: right;
+    justify-content: center;
     align-items: center;
 
 }
 
-button {
-    margin-top: 15px;
+.iniciaSesion,
+.login {
+    margin-top: 45%;
     margin-right: 15px;
     color: white;
     width: 100px;

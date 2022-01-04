@@ -1,0 +1,93 @@
+.orderLogin {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.Login {
+    width: 600px;
+    height: 800px;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    box-shadow: 0px 0px 0px 2px rgba(0, 0, 0, 0.45);
+    margin-bottom: 20%;
+
+}
+
+.imgLogin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 70px;
+    background-color: gray;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.positionIcon1,
+.positionIcon2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+#clave,
+#usuario {
+    width: 250px;
+    margin-top: 10px;
+    padding-left: 20px;
+    border: 1px solid rgb(210, 216, 218);
+    border-radius: 10px;
+    box-shadow: 1px 5px 5px rgba(128, 128, 128, 0.404);
+
+}
+
+
+.formUser,
+.formPassword {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 60px;
+    margin-left: 70px;
+    margin-right: 100px;
+    justify-content: center;
+}
+
+.imgUser {
+    width: 60px;
+    height: 60px;
+
+}
+
+.orderButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+
+}
+
+.buttonStart {
+    width: 300px;
+    font-size: 1.5rem;
+    letter-spacing: 5px;
+    background-color: rgb(51, 119, 245);
+    border-radius: 10px;
+    color: white;
+    box-shadow: 5px 5px 5px grey;
+
+}
+
+.orderLinks {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}

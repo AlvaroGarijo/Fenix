@@ -19,7 +19,7 @@ const NavBar = () => {
                     </ol>
 
                     <div className='orderButton'>
-                        <button className='iniciaSesion'><a href="./InicioSesion">Inicia Sesión</a> </button>
+                        <button className='iniciaSesion'><a href="./StartSesion">Inicia Sesión</a> </button>
                         <button className='login'><a href="./Login">Login</a></button>
                     </div>
                 </div>

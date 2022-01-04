@@ -18,7 +18,7 @@ const LineaDeRuta =()=>{
              <Routes>
                  <Route path="/" element = {<Home/>}/>
                  <Route path="/Login" element={<Login/>}/>
-                 <Route path="/InicioSesion" element={<StartSesion/>}/>
+                 <Route path="/StartSesion" element={<StartSesion/>}/>
                  <Route path="/FenixFit" element={<FenixFit/>}/>
                  <Route path="/Tarifas" element={<Tarifas/>}/>
                  <Route path="/Opiniones" element={<Opiniones/>}/>
