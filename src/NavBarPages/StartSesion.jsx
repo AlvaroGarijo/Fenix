@@ -5,7 +5,7 @@ import './styles/StartSesion.css'
 export const StartSesion = () => {
     return (
         <>
-            <div className='orderLogin'>
+            <div className='orderStart'>
                 <img className='imgLogo' src="https://img.freepik.com/vector-gratis/plantilla-logotipo-ave-fenix_15146-286.jpg?size=338&ext=jpg" alt="FenixLogo" />
                 <div className='Login'>
                     <div className='imgLogin'>Foto</div>
@@ -24,7 +24,7 @@ export const StartSesion = () => {
                             <input type="password" id="clave" required placeholder='Password' />
                         </div>
                     </form>
-                    <div className='orderButton'>
+                    <div className='orderButtonSesion'>
                         <button type='button' className='buttonStart' >Start</button>
                     </div>
                     <div className='orderLinks'>

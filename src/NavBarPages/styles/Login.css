@@ -1,0 +1,44 @@
+.orderLogin {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.orderFirst {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+
+}
+
+.logoFenixLogin {
+    width: 500px;
+    height: 500px;
+}
+
+.family {
+    width: 500px;
+    font-size: 2.5rem;
+    align-items: center;
+}
+
+.orderSecond {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    background-color: rgb(144, 174, 238);
+    margin: 50px;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+.contentForm {
+    width: 100%;
+    background-color: rgb(192, 210, 250);
+    padding-left: 20px;
+    margin: 10px;
+    border-radius: 15px;
+}
