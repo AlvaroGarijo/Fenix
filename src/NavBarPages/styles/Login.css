@@ -9,36 +9,132 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 40%;
+    width: 45%;
 
 }
 
 .logoFenixLogin {
-    width: 500px;
-    height: 500px;
+    width: 600px;
+    height: 600px;
 }
 
 .family {
-    width: 500px;
+    width: 80%;
+    font-family: serif;
     font-size: 2.5rem;
+    color: gray;
     align-items: center;
+    text-align: center;
 }
 
 .orderSecond {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    width: 60%;
+    width: 50%;
+    margin-left: 10%;
+    margin-right: 10%;
     background-color: rgb(144, 174, 238);
     margin: 50px;
     border: 1px solid black;
     border-radius: 15px;
 }
 
+.formLogin {
+    width: 90%;
+}
+
 .contentForm {
-    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
     background-color: rgb(192, 210, 250);
     padding-left: 20px;
-    margin: 10px;
+    padding-right: 20px;
+    margin: 15px;
     border-radius: 15px;
+}
+
+.nameForm,
+.lastNameForm,
+.emailForm,
+.passwordForm,
+.passwordFormConfirm,
+.phoneNumber,
+.dateForm {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px;
+
+}
+
+.passwordForm,
+.passwordFormConfirm,
+.phoneNumber {
+    width: 40%;
+}
+
+.dateForm {
+    width: 20%;
+}
+
+.internalForm1 {
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.internalForm2 {
+    height: 2rem;
+    color: black;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 2px 2px 2px gray;
+}
+
+
+.descriptionForm {
+    display: flex;
+    flex-direction: column;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.descriptionForm2 {
+    border-radius: 10px;
+    border: none;
+    box-shadow: 2px 2px 2px gray;
+}
+
+.acceptConditionsOrder {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+    padding: 10px;
+}
+
+.acceptTerms {
+    font-size: 1.3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-right: 10px;
+}
+
+.termCond {
+    color: blueviolet;
+    font-style: oblique;
+}
+
+.buttomForm {
+    color: white;
+    height: 40px;
+    width: 120px;
+    border-radius: 10px;
+    letter-spacing: 2px;
+    background-color: dodgerblue;
+    box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.653);
+
 }

@@ -12,50 +12,47 @@ export const Login = () => {
                     </h2>
                 </div >
                 <div className='orderSecond'>
-                    <form action="POST">
-
+                    <form className='formLogin' action="POST">
                         <div className="contentForm">
                             <div className="nameForm">
-                                <span className="">Nombre: </span>
-                                <input type="email" className="" name="Nombre" placeholder="Nombre" id="name" required />
+                                <span className="internalForm1">Nombre: </span>
+                                <input type="text" className="internalForm2" name="Nombre" placeholder="Nombre" id="name" required />
                             </div>
                             <div className="lastNameForm">
-                                <span className="">Apellidos: </span>
-                                <input type="email" className="" name="Apellidos" placeholder="Apellidos" id="lastName" required />
+                                <span className="internalForm1">Apellidos: </span>
+                                <input type="text" className="internalForm2 " name="Apellidos" placeholder="Apellidos" id="lastName" required />
                             </div>
                             <div className="emailForm">
-                                <span className="">E-Mail</span>
-                                <input type="email" className="" name="email" placeholder="Email" id="Correo" required />
+                                <span className="internalForm1">E-Mail</span>
+                                <input type="email" className="internalForm2 " name="email" placeholder="Email" id="Correo" required />
                             </div>
                             <div className="passwordForm">
-                                <span className="">Contraseña</span>
-                                <input type="password" name="contra" className="" placeholder="******" required />
+                                <span className="internalForm1">Contraseña</span>
+                                <input type="password" name="contra" className="internalForm2 " placeholder="******" required />
                             </div>
                             <div className="passwordFormConfirm">
-                                <span className="">Confirma Contraseña</span>
-                                <input type="password" name="contra" className="" placeholder="******" required />
+                                <span className="internalForm1">Confirma Contraseña</span>
+                                <input type="password" name="contra" className="internalForm2 " placeholder="******" required />
                             </div>
                             <div className="phoneNumber">
-                                <span className="">Teléfono: </span>
-                                <input type="number" className="" name="Teléfono" placeholder="Teléfono" id="phoneNumber" required />
+                                <span className="internalForm1">Teléfono: </span>
+                                <input type="number" className="internalForm2 " name="Teléfono" placeholder="Teléfono" id="phoneNumber" required />
                             </div>
-                            <div>
-                                <label htmlFor=""></label>
-                                <input type="date" name="" id="" />
+                            <div className='dateForm'>
+                                <label className='internalForm1'>Fecha de Nacimiento:</label>
+                                <input type="date" name="dateForm" className='internalForm2 ' />
                             </div>
-                            <div>
-                                <label htmlFor="">Sobre Mi</label>
-                                <textarea name="" id="" cols="30" rows="10"></textarea>
+                            <div className='descriptionForm'>
+                                <label htmlFor="#">Sobre Mi</label>
+                                <textarea name="" className='descriptionForm2'></textarea>
                             </div>
-                            <div>
+                            <div className='descriptionForm'>
                                 <label htmlFor="">¿Por qué Fenix Fit (Opcional)</label>
-                                <textarea name="" id="" cols="30" rows="10"></textarea>
+                                <textarea name="" className='descriptionForm2'></textarea>
                             </div>
-                            <div>
-                                <p>
-                                    <input type="checkbox" name="p1" value="1" />Acepto Términos y Condiciones
-                                </p>
-                                <button className="buttonForm" type="submit">Entrar</button>
+                            <div className='acceptConditionsOrder'>
+                                <p className='acceptTerms'><input className='cuadrado' type="checkbox" name="p1" value="1" />   Acepto <span className='termCond'>Términos y Condiciones</span></p>
+                                <button className="buttomForm" type="submit">Acepto</button>
                             </div>
                         </div >
 
