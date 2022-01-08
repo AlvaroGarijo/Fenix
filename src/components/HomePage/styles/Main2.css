@@ -20,9 +20,8 @@
 }
 
 .img1 {
-    display: flex;
-    justify-content: flex-start;
-    border-radius: 0px 15px 15px 0px;
+
+    border-radius: 15px 0px 0px 15px;
     width: 100%;
     box-shadow: 5px 5px 3px grey;
 }
