@@ -41,7 +41,7 @@ export const FenixFit = () => {
                     <div className='loMerecen'>
                         <h2>¡Tus clientes lo merecen!</h2>
                         <img className='imgResponsive' src="https://img.freepik.com/vector-gratis/dispositivo-fondo-blanco_266838-127.jpg?size=626&ext=jpg" alt="dispositivosImg" />
-                        <div>
+                        <div className='logAppOrder'>
                             <Link to=""> <img className='logApp' src="https://1000marcas.net/wp-content/uploads/2021/07/Google-Play-logo.png" alt="" /> </Link>
                             <Link to=""> <img className='logApp' src="https://upload.wikimedia.org/wikipedia/commons/5/5d/Available_on_the_App_Store_%28black%29.png" alt="" /> </Link>
                         </div>

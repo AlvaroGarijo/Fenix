@@ -1,0 +1,58 @@
+.titleOpinion {
+    text-align: center;
+    margin: 20px;
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+.cardsMultiple {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.cardOpinion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 40%;
+    margin: 30px;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 5px rgb(183, 208, 253);
+}
+
+.photoUser {
+    width: 100px;
+    height: 100px;
+    background-color: lightgrey;
+    border: 1px dashed black;
+    margin-top: 30px;
+    border-radius: 50%;
+
+}
+
+.nameOpinion {
+    color: rgb(116, 116, 116);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.igUser {
+    width: 90%;
+    text-align: right;
+}
+
+.opinion {
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    margin: 5%;
+    border: 1px solid lightgrey;
+    padding: 5%;
+    border-radius: 15px;
+}
