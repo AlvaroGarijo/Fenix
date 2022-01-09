@@ -12,6 +12,8 @@ import { Tarifas } from '../NavBarPages/Tarifas';
 import  {Opinions}  from '../NavBarPages/Opinions';
 import { Home } from '../Pages/Home';
 
+
+
 const LineaDeRuta =()=>{
     return (
         <BrowserRouter>

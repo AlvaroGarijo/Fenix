@@ -12,7 +12,7 @@ export const Main2 = () => {
                 </div>
 
             </div>
-            <hr />
+
 
         </>
     )

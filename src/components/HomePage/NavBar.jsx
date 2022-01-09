@@ -3,7 +3,6 @@ import './styles/NavBar.css'
 
 const NavBar = () => {
 
-    const state = useState('');
     return (
         <>
             <nav className='orderNav'>
@@ -15,7 +14,7 @@ const NavBar = () => {
                     <ol className='listNav'>
                         <li> <a href="./FenixFit">Fenix Fit</a></li>
                         <li> <a href="./Tarifas">Tarifas</a></li>
-                        <li> <a href="./Opiniones">Opiniones</a></li>
+                        <li> <a href="./Opinions">Opiniones</a></li>
                     </ol>
 
                     <div className='orderButton'>
