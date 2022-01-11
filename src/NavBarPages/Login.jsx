@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './styles/Login.css'
 
 export const Login = () => {
@@ -50,9 +51,14 @@ export const Login = () => {
                                 <label htmlFor="">¿Por qué Fenix Fit (Opcional)</label>
                                 <textarea name="" className='descriptionForm2'></textarea>
                             </div>
+
+
+                            {/* IMPORTANTE CAMBIAR RUTAS DE LOGUEARSE */}
+
+
                             <div className='acceptConditionsOrder'>
                                 <p className='acceptTerms'><input className='cuadrado' type="checkbox" name="p1" value="1" />   Acepto <span className='termCond'>Términos y Condiciones</span></p>
-                                <button className="buttomForm" type="submit">Acepto</button>
+                                <Link to='/UserLoginHome'><button className="buttomForm" type="submit">Acepto</button></Link>
                             </div>
                         </div >
 

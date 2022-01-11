@@ -14,7 +14,9 @@
 }
 
 .sloganTarifas {
-    width: 50%;
+    width: 30%;
+    padding: 20px;
+    font-family: sans-serif;
     font-size: 50px;
     margin-left: 20px;
     text-align: right;
@@ -92,12 +94,12 @@
 
 .sloganFree {
     background-color: rgb(51, 99, 255);
-    width: 60%;
     margin: 5%;
+    width: 35%;
     font-family: sans-serif;
     font-size: 3.5rem;
     text-align: center;
-    color: rgb(191, 232, 255);
+    color: rgb(255, 255, 255);
     border-radius: 15px;
     padding: 30px;
     border: none;
@@ -106,7 +108,7 @@
 
 .buttomFree {
     background-color: rgb(173, 204, 0);
-    color: rgb(227, 255, 253);
+    color: rgb(255, 255, 255);
     font-family: sans-serif;
     font-weight: bolder;
     font-size: 4.2rem;
@@ -116,6 +118,7 @@
     border-radius: 15px;
     border: none;
     box-shadow: 5px 5px 5px gray;
+    margin: 20px;
 
 }
 

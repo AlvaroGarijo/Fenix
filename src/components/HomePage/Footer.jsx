@@ -5,7 +5,7 @@ export const Footer = () => {
     return (
         <>
             <div className="footer">
-                <h2 className='titleFooter'>Fénix Fit</h2>
+                <h2 className='titleFooter'>FENIX FIT</h2>
                 <div className="orderFooter">
                     <ul className="orderIcons">
                         <li className="list">

@@ -24,8 +24,11 @@ export const StartSesion = () => {
                             <input type="password" id="clave" required placeholder='Password' />
                         </div>
                     </form>
+
+                    {/* IMPORTANTE CAMBIAR RUTAS DE LOGUEARSE */}
+
                     <div className='orderButtonSesion'>
-                        <button type='button' className='buttonStart' >Start</button>
+                        <Link to='/UserLoginHome'><button type='button' className='buttonStart' >Start</button></Link>
                     </div>
                     <div className='orderLinks'>
                         <Link to="#">Si no eres miembro, regístrate AQUI </Link>
