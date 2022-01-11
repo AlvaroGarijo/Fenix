@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import './styles/Tarifas.css'
 
 
@@ -43,7 +44,7 @@ export const Tarifas = () => {
             </div >
             <div className='proofFree'>
                 <h3 className='sloganFree' >No dudes en probar <span className='freeDays'>30 días gratuitos </span> con el funcionamiento completo hasta 7 clientes</h3>
-                <button className='buttomFree' >Prueba Gratis 30 días</button>
+                <Link to='/FreePage'> <button className='buttomFree' >Prueba Gratis 30 días</button></Link>
             </div>
         </div >
     )

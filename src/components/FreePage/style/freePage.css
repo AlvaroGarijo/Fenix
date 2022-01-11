@@ -1,0 +1,95 @@
+@font-face {
+    font-family: nevis;
+    src: local('nevis.ttf');
+}
+
+.fondContainer {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.cuadroOpaco {
+    border: 1px solid lightgray;
+    box-shadow: 6px 6px 6px lightgrey;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.orderFormFree1 {
+    padding: 30px;
+    margin: 5%;
+    border: 1px solid lightgray;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px lightgrey;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.orderFormFree2 {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.iconFreePage {
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+
+}
+
+.h2FreePage {
+    font-family: Tahoma, sans-serif;
+    padding: 10px;
+
+}
+
+.inputFree {
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    width: 250px;
+    padding-left: 30px;
+    margin-bottom: 20px;
+
+}
+
+.acceptTermsFree {
+    padding-bottom: 20px;
+}
+
+
+.buttomFormFree {
+    background-color: rgb(172, 212, 24);
+    box-shadow: 5px 5px 5px grey;
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+}
+
+.FenixFree {
+    font-family: nevis;
+    letter-spacing: 3px;
+    font-size: 3rem;
+    padding-bottom: 20px;
+}
+
+.sloganFreePage {
+    padding-top: 30px;
+    text-align: center;
+    font-size: 2.8rem;
+    font-family: nevis;
+}

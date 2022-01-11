@@ -1,8 +1,6 @@
 import React from 'react'
-import { FreePage } from '../components/FreePage/FreePage'
+import { Link } from 'react-router-dom'
 import './styles/FenixFit.css'
-
-
 
 
 export const FenixFit = () => {
@@ -27,7 +25,7 @@ export const FenixFit = () => {
                     <img className='principalImg' src="https://images.ecestaticos.com/uARE0E8xHcbYxZ1oIpAsmI4SXpA=/0x123:2271x1399/1600x900/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2F4da%2F403%2F02b%2F4da40302bea043bea8d2156bd20b22e5.jpg" alt="" />
                     <div >
 
-                        <button onClick={FreePage} className='butomPruebaFF' >Prueba Gratis</button>
+                        <Link to='/FreePage'><button className='butomPruebaFF' >Prueba Gratis</button> </Link>
                     </div>
                 </div>
             </div>
