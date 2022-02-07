@@ -1,23 +1,23 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import './styles/UserLoginHome.css'
+import './styleUserLogin/stylesUserLoginHome.css';
 
 export const UserLoginHome = () => {
     return (
         <div>
             <div className='orderWrapp'>
                 <div className='NavBarUser'>
-                    <img src="" alt="" />
-                    <div>Nombre y Apellidos</div>
-                    <ol>
+                    <img className='imgUserLog' src="https://f.rpp-noticias.io/2019/02/15/753300descarga-11jpg.jpg" alt="" />
+                    <div className='nameUser'>Nombre y Apellidos</div>
+                    <div className='listUserLog'>
                         <Link to="/Planing"><li>Planifica</li></Link>
                         {/* <Link to="/UserList"><li>Usuaruios</li></Link> */}
                         <Link to="Library"><li>Libreria</li></Link>
                         <Link to="Evolution"><li>Evolución</li></Link>
                         <Link to="Payments"><li>Pagos</li></Link>
-                        <Link to="Chat"><li>Chat</li></Link>
-                    </ol>
-                    <img src="" alt="LogoFenix" />
+                        <Link to="Chat"><li className='chat' >Chat</li></Link>
+                    </div>
+                    <img className='imgLogoFenix' src='https://img.freepik.com/vector-gratis/plantilla-logotipo-ave-fenix_15146-287.jpg?size=338&ext=jpg' alt="LogoFenix" />
                     <h3>Fenix Fit</h3>
                 </div>
                 <div className='controlUserWeb'>

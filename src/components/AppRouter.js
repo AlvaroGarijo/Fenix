@@ -3,13 +3,15 @@ import {
     BrowserRouter,
     Routes,
     Route,
-    Link,
     } from 'react-router-dom';
 import { Login } from '../NavBarPages/Login';
 import { StartSesion } from '../NavBarPages/StartSesion';
 import { FenixFit } from '../NavBarPages/FenixFit';
 import { Tarifas } from '../NavBarPages/Tarifas';
-import  {Opinions}  from '../NavBarPages/Opinions';
+import {Opinions}  from '../NavBarPages/Opinions';
+
+// LO DE AQUI ABAJO SE HACE DE OTRA MANERA (LOGUEADO)
+
 import { Home } from '../Pages/Home';
 import { FreePage } from './FreePage/FreePage';
 import { UserLoginHome } from './UserHomePage/UserLoginHome';
