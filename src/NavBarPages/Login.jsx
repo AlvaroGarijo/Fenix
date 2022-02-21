@@ -9,7 +9,7 @@ export const Login = () => {
                 <div className='orderFirst'>
                     <img className='logoFenixLogin' src="https://img.freepik.com/vector-gratis/plantilla-logotipo-ave-fenix_15146-287.jpg?size=338&ext=jpg" alt="LogoFenix" />
                     <h2 className='family'>
-                        ÚNETE A LA FAMILIA FÉNIX
+                        UNETE A LA FAMILIA FENIX
                     </h2>
                 </div >
                 <div className='orderSecond'>

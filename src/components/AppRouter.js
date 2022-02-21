@@ -13,7 +13,7 @@ import {Opinions}  from '../NavBarPages/Opinions';
 // LO DE AQUI ABAJO SE HACE DE OTRA MANERA (LOGUEADO)
 
 import { Home } from '../Pages/Home';
-import { FreePage } from './FreePage/FreePage';
+import { FreePage } from '../FreePage/FreePage';
 import { UserLoginHome } from './UserHomePage/UserLoginHome';
 import { Planing } from './UserHomePage/MovingUserLogin/Planing';
 import { Library } from './UserHomePage/MovingUserLogin/Library';
