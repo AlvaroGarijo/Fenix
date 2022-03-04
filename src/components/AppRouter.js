@@ -4,22 +4,20 @@ import {
     Routes,
     Route,
     } from 'react-router-dom';
-import { Login } from '../NavBarPages/Login';
-import { StartSesion } from '../NavBarPages/StartSesion';
-import { FenixFit } from '../NavBarPages/FenixFit';
-import { Tarifas } from '../NavBarPages/Tarifas';
-import {Opinions}  from '../NavBarPages/Opinions';
+import { Login } from '../navBarPages/Login';
+import { StartSesion } from '../navBarPages/StartSesion';
+import { FenixFit } from '../navBarPages/FenixFit';
+import { Tarifas } from '../navBarPages/Tarifas';
+import {Opinions}  from '../navBarPages/Opinions';
 
 // LO DE AQUI ABAJO SE HACE DE OTRA MANERA (LOGUEADO)
 
 import { Home } from '../Pages/Home';
 import { FreePage } from '../freePage/FreePage';
 import { UserLoginHome } from './UserHomePage/UserLoginHome';
-import { Planing } from './UserHomePage/MovingUserLogin/Planing';
-import { Library } from './UserHomePage/MovingUserLogin/Library';
-import { Evolution } from './UserHomePage/MovingUserLogin/Evolution';
-import { Payments } from './UserHomePage/MovingUserLogin/Payments';
-import { Chat } from './UserHomePage/MovingUserLogin/Chat';
+import { Planing } from './UserHomePage/MovingUserLogin/planing/Planing';
+import { Library } from './UserHomePage/MovingUserLogin/library/Library';
+
 
 
 
@@ -41,12 +39,7 @@ const LineaDeRuta =()=>{
 
                  
                  <Route path="/Planing" element={<Planing/>}/>
-                 {/* <Route path="/UserList" element={<UserList/>}/> */}
                  <Route path="/Library" element={<Library/>}/>
-                 <Route path="/Evolution" element={<Evolution/>}/>
-                 <Route path="/Payments" element={<Payments/>}/>
-                 <Route path="/Chat" element={<Chat/>}/>
-
                  </Routes>
                 
         </BrowserRouter>

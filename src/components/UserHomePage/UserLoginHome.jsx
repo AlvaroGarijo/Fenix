@@ -13,15 +13,10 @@ export const UserLoginHome = () => {
                     <img className='imgUserLog' src="" alt=""/>
                     <div className='nameUser'>Nombre y Apellidos</div>
                     <div className='listUserLog'>
-                        <Link to="/ToAddClient"><li>Añadir Usuario</li></Link>
-                        <Link to="/Planing"><li>Planifica</li></Link>
-                        
-
-                        {/* <Link to="/UserList"><li>Usuaruios</li></Link> */}
-                        <Link to="Library"><li>Libreria</li></Link>
-                        <Link to="Evolution"><li>Evolución</li></Link>
-                        <Link to="Payments"><li>Pagos</li></Link>
-                        <Link to="Chat"><li className='chat' >Chat</li></Link>
+                        <Link to="./newUser/ToAddClient"><li>Añadir Usuario</li></Link>
+                        <Link to="./planing/Planing"><li>Planifica</li></Link>
+                        <Link to="./library/Library"><li>Libreria</li></Link>
+                      
                     </div>
                     <img className='imgLogoFenix' src='https://img.freepik.com/vector-gratis/plantilla-logotipo-ave-fenix_15146-287.jpg?size=338&ext=jpg' alt="LogoFenix" />
                     <h3>Fenix Fit</h3>
