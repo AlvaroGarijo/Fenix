@@ -33,11 +33,11 @@ export const FenixFit = () => {
 
                 <div className='orderInfo2'>
                     <ul className='listFit2'>
-                        <li>Digitaliza tu negocio</li>
-                        <li>Crea workouts personalizados</li>
-                        <li>Sube imagenes y vídeos</li>
-                        <li>Comparte la evolución de tus clientes</li>
-                        <li>Asigna entrenamientos Online</li>
+                        <li className='listFenix'>Digitaliza tu negocio</li>
+                        <li className='listFenix'>Crea workouts personalizados</li>
+                        <li className='listFenix'>Sube imagenes y vídeos</li>
+                        <li className='listFenix'>Comparte la evolución de tus clientes</li>
+                        <li className='listFenix'>Asigna entrenamientos Online</li>
                     </ul>
                     <div className='loMerecen'>
                         <h2>¡Tus clientes lo merecen!</h2>

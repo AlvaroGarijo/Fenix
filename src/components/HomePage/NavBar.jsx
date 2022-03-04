@@ -1,5 +1,4 @@
-import React, { useState } from 'react';
-import './styles/NavBar.css'
+import './styles/NavBar.css';
 
 const NavBar = () => {
 
@@ -18,8 +17,8 @@ const NavBar = () => {
                     </ol>
 
                     <div className='orderButton'>
-                        <button className='iniciaSesion'><a href="./StartSesion">Inicia Sesion</a> </button>
-                        <button className='login'><a href="./Login">Login</a></button>
+                        <button className='iniciaSesion'><a href="./StartSesion"> Inicia Sesion</a> </button>
+                        <button className='login'><a href="./Login"> <i className="fa-solid fa-arrow-right-to-bracket"></i>  Login</a></button>
                     </div>
                 </div>
             </nav>

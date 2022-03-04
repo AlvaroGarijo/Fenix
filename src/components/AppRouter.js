@@ -13,7 +13,7 @@ import {Opinions}  from '../NavBarPages/Opinions';
 // LO DE AQUI ABAJO SE HACE DE OTRA MANERA (LOGUEADO)
 
 import { Home } from '../Pages/Home';
-import { FreePage } from '../FreePage/FreePage';
+import { FreePage } from '../freePage/FreePage';
 import { UserLoginHome } from './UserHomePage/UserLoginHome';
 import { Planing } from './UserHomePage/MovingUserLogin/Planing';
 import { Library } from './UserHomePage/MovingUserLogin/Library';
@@ -38,6 +38,8 @@ const LineaDeRuta =()=>{
                  <Route path="/UserLoginHome" element={<UserLoginHome/>}/>
 
                  {/* Movimientos Dentro de Usuario Logueado */}
+
+                 
                  <Route path="/Planing" element={<Planing/>}/>
                  {/* <Route path="/UserList" element={<UserList/>}/> */}
                  <Route path="/Library" element={<Library/>}/>

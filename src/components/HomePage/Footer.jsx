@@ -10,28 +10,28 @@ export const Footer = () => {
                     <ul className="orderIcons">
                         <li className="list">
                             <a href="https://twitter.com/">
-                                <img className='icons' src="https://cdn-icons-png.flaticon.com/512/1384/1384049.png" alt="twitterIcon" /></a >
+                                <img className='icons' src='./img/twitterIcon.png' alt="twitterIcon" /></a >
                         </li >
                         <li className="list" >
                             <a href="https://www.facebook.com/">
-                                <img className="icons" src=" https://cdn-icons-png.flaticon.com/512/21/21155.png" alt="facebookIcon" /></a >
+                                <img className="icons" src='./img/facebookIcon.png' alt="facebookIcon" /></a >
                         </li>
                         <li className="list" >
                             <a href="https://www.youtube.com/">
-                                <img className="icons" src="https://cdn-icons-png.flaticon.com/512/1384/1384044.png" alt="youtubeIcon" /></a >
+                                <img className="icons" src='./img/youtubeIcon.png' alt="youtubeIcon" /></a >
                         </li >
                         <li className="list" >
                             <a href="https://www.linkedin.com/company/">
-                                <img className="icons" src="https://cdn-icons-png.flaticon.com/512/1384/1384046.png" alt="linkedinIcon" /></a >
+                                <img className="icons" src='./img/linkedinIcon.png' alt="linkedinIcon" /></a >
                         </li >
                         <li className="list">
                             <a href="https://github.com/">
-                                <img className="icons" src="https://cdn-icons-png.flaticon.com/512/1051/1051326.png" alt="githubIcon" />
+                                <img className="icons" src='./img/githubIcon.png' alt="githubIcon" />
                             </a >
                         </li >
                         <li className='list'>
                             <a href="https://instagram.com/">
-                                <img className='icons' src="https://cdn-icons-png.flaticon.com/512/1419/1419647.png" alt="instagramIcon" />
+                                <img className='icons' src='./img/instagramIcon.png' alt="instagramIcon" />
                             </a >
                         </li >
                     </ul >

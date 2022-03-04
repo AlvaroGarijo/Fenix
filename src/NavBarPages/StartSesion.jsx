@@ -8,17 +8,15 @@ export const StartSesion = () => {
             <div className='orderStart'>
                 <img className='imgLogo' src="https://img.freepik.com/vector-gratis/plantilla-logotipo-ave-fenix_15146-286.jpg?size=338&ext=jpg" alt="FenixLogo" />
                 <div className='Login'>
-                    <div className='imgLogin'>Foto</div>
-
                     <form className='formUser'>
-                        <img className='imgUser' src="https://cdn-icons.flaticon.com/png/512/2354/premium/2354573.png?token=exp=1641303585~hmac=5023ef449d3b916391b388f09f6aa545" alt="userLogo" />
+                        <img className='imgUser' src='img/userIcon.png' alt="userLogo" />
                         <div className='positionIcon1'>
                             <label htmlFor="Usuario">Nombre de Usuario:</label>
                             <input type="text" id="usuario" placeholder='Usuario' />
                         </div>
                     </form>
                     <form className='formPassword'>
-                        <img className='imgUser' src="https://cdn-icons-png.flaticon.com/512/6475/6475250.png" alt="userLogo" />
+                        <img className='imgUser' src='img/passwordIcon.png' alt="userLogo" />
                         <div className='positionIcon2'>
                             <label htmlFor="Password">Password:</label>
                             <input type="password" id="clave" required placeholder='Password' />
@@ -28,7 +26,7 @@ export const StartSesion = () => {
                     {/* IMPORTANTE CAMBIAR RUTAS DE LOGUEARSE */}
 
                     <div className='orderButtonSesion'>
-                        <Link to='/UserLoginHome'><button type='button' className='buttonStart' >Start</button></Link>
+                        <Link to='/UserLoginHome'><button type='button' className='buttonStart' >Empieza</button></Link>
                     </div>
                     <div className='orderLinks'>
                         <Link to="#">Si no eres miembro, regístrate AQUI </Link>

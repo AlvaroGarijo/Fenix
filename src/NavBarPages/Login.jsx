@@ -37,20 +37,9 @@ export const Login = () => {
                             </div>
                             <div className="phoneNumber">
                                 <span className="internalForm1">Teléfono: </span>
-                                <input type="number" className="internalForm2 " name="Teléfono" placeholder="Teléfono" id="phoneNumber" required />
+                                <input type="text" className="internalForm2 " name="Teléfono" placeholder="Teléfono" id="phoneNumber" required />
                             </div>
-                            <div className='dateForm'>
-                                <label className='internalForm1'>Fecha de Nacimiento:</label>
-                                <input type="date" name="dateForm" className='internalForm2 ' />
-                            </div>
-                            <div className='descriptionForm'>
-                                <label htmlFor="#">Sobre Mi</label>
-                                <textarea name="" className='descriptionForm2'></textarea>
-                            </div>
-                            <div className='descriptionForm'>
-                                <label htmlFor="">¿Por qué Fenix Fit (Opcional)</label>
-                                <textarea name="" className='descriptionForm2'></textarea>
-                            </div>
+                           
 
 
                             {/* IMPORTANTE CAMBIAR RUTAS DE LOGUEARSE */}

@@ -1,5 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+
+
 import './styleUserLogin/stylesUserLoginHome.css';
 
 export const UserLoginHome = () => {
@@ -8,7 +10,7 @@ export const UserLoginHome = () => {
             <div className='orderWrapp'>
                 <div className='NavBarUser'>
                     
-                    <img className='imgUserLog' src="https://f.rpp-noticias.io/2019/02/15/753300descarga-11jpg.jpg" alt="" />
+                    <img className='imgUserLog' src="" alt=""/>
                     <div className='nameUser'>Nombre y Apellidos</div>
                     <div className='listUserLog'>
                         <Link to="/ToAddClient"><li>Añadir Usuario</li></Link>
@@ -27,8 +29,8 @@ export const UserLoginHome = () => {
                 <div className='controlUserWeb'>
 
 
-        
-                    <div>{/* CALENDARIO */}</div>
+
+
 
                     <div className='squareDates'>
                         <div className='squareDate'>

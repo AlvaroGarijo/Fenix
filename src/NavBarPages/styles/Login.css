@@ -31,6 +31,7 @@
     font-size: 3rem;
     align-items: center;
     text-align: center;
+    margin-bottom: 15%;
 }
 
 .orderSecond {
@@ -56,9 +57,7 @@
     flex-direction: column;
     flex-grow: 1;
     background-color: rgb(192, 210, 250);
-    padding-left: 20px;
-    padding-right: 20px;
-    margin: 15px;
+    padding:5%;
     border-radius: 15px;
 }
 
@@ -66,9 +65,7 @@
 .lastNameForm,
 .emailForm,
 .passwordForm,
-.passwordFormConfirm,
-.phoneNumber,
-.dateForm {
+.passwordFormConfirm{
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -76,43 +73,25 @@
 
 }
 
-.passwordForm,
-.passwordFormConfirm,
-.phoneNumber {
-    width: 40%;
-}
-
-.dateForm {
-    width: 20%;
-}
 
 .internalForm1 {
     color: black;
+    font-size: 1.2rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.internalForm2 {
-    height: 2rem;
-    color: black;
-    padding: 15px;
+.internalForm2{
     border-radius: 10px;
     border: none;
-    box-shadow: 2px 2px 2px gray;
+    margin-top: 5px;
+    padding: 5px;
+    padding-left: 20px;
 }
 
-
-.descriptionForm {
-    display: flex;
-    flex-direction: column;
-    color: black;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-
-}
-
-.descriptionForm2 {
-    border-radius: 10px;
-    border: none;
-    box-shadow: 2px 2px 2px gray;
+.phoneNumber{
+    margin-left: 10px;
+    margin-top: 20px;
+    box-shadow: 1px 1px 1px lightblue;
 }
 
 .acceptConditionsOrder {
@@ -127,6 +106,7 @@
     font-size: 1.3rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding-right: 10px;
+    margin-top: 20px;
 }
 
 .termCond {
@@ -142,5 +122,11 @@
     letter-spacing: 2px;
     background-color: dodgerblue;
     box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.653);
+    margin-top: 10px;
+}
 
+.buttomForm:hover{
+    transition: all .3s ease;
+    transform: scale(1.1);
+    background-color: rgb(122, 122, 0);
 }

@@ -9,6 +9,7 @@ import { Main2A } from '../components/HomePage/Main2A';
 export const Home = () => {
     return (
         <div>
+        
             <Main1 />,
             <Main2 />,
             <Cards />,

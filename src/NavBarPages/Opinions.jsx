@@ -3,6 +3,8 @@ import './styles/Opinions.css'
 
 
 export const Opinions = () => {
+
+    
     return (
         <>
             <h1 className='titleOpinion'>Opiniones</h1>
