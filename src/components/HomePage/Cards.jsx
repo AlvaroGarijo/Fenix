@@ -7,7 +7,7 @@ export const Cards = () => {
             <h2>OFRECE EL MEJOR SERVICIO</h2>
             <div className='cards'>
                 <div className='card'>
-                    <img className='card-icon' src="https://cdn-icons-png.flaticon.com/512/6442/6442081.png" alt="planifica" />
+                    <img className='card-icon' src='./img/LogoPlaning.png' alt="planifica" />
                     <div className='card1-internal'>
                         <h4 className='letters'>
                             Planifica de forma fácil y eficaz
@@ -16,7 +16,7 @@ export const Cards = () => {
                 </div>
 
                 <div className='card'>
-                    <img className='card-icon' src="https://cdn-icons-png.flaticon.com/512/6183/6183784.png" alt="workout" />
+                    <img className='card-icon' src='./img/LogoWorkout.png' alt="workout" />
                     <div className='card2-internal'>
                         <h4 className='letters'>
                             Genera tus Workouts y envíalos a tus clientes
@@ -25,7 +25,7 @@ export const Cards = () => {
                 </div>
 
                 <div className='card'>
-                    <img className='card-icon' src="https://cdn-icons-png.flaticon.com/512/5716/5716227.png" alt="contact" />
+                    <img className='card-icon' src='./img/LogoChat.png' alt="contact" />
                     <div className='card3-internal'>
                         <h4 className='letters'>
                             Contacto directo con el cliente
@@ -34,7 +34,7 @@ export const Cards = () => {
                 </div>
 
                 <div className='card'>
-                    <img className='card-icon' src="https://cdn-icons-png.flaticon.com/512/1270/1270333.png" alt="controlEvolution" />
+                    <img className='card-icon' src='./img/LogoEvolution.png' alt="controlEvolution" />
                     <div className='card4-internal'>
                         <h4 className='letters'>
                             Controla la evolución de forma más regular
@@ -44,7 +44,7 @@ export const Cards = () => {
 
 
                 <div className='card'>
-                    <img className='card-icon' src="https://cdn-icons.flaticon.com/png/512/5444/premium/5444182.png?token=exp=1640848789~hmac=4521aa20412e1a5d115054e6a5f7c79d" alt="librery" />
+                    <img className='card-icon' src='./img/LogoLibrary.png' alt="library" />
                     <div className='card5-internal'>
                         <h4 className='letters'>
                             Crea tu propia libreria de ejercicios
@@ -53,7 +53,7 @@ export const Cards = () => {
                 </div>
 
                 <div className='card'>
-                    <img className='card-icon' src="https://cdn-icons-png.flaticon.com/512/1556/1556579.png" alt="controlPayments" />
+                    <img className='card-icon' src='./img/LogoPayment.png' alt="controlPayments" />
                     <div className='card6-internal'>
                         <h4 className='letters'>
                             Controla tus ingresos como nunca antes

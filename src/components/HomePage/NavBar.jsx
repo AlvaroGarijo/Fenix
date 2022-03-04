@@ -6,7 +6,7 @@ const NavBar = () => {
         <>
             <nav className='orderNav'>
                 <div className='orderLogo' >
-                    <img className="logoNav" src="https://img.freepik.com/vector-gratis/plantilla-logotipo-ave-fenix_15146-286.jpg?size=338&ext=jpg" alt="LogoFenix" />
+                    <img className="logoNav" src='./img/logoFenix.jpeg' alt="LogoFenix" />
                     <div className='titleNav'> <a href="./">FENIX FIT </a> </div>
                 </div>
                 <div className='orderListNav'>

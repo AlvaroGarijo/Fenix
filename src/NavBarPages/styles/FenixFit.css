@@ -75,7 +75,7 @@
     font-size: 3.5rem;
     font-family: Impact;
     margin-top: 100px;
-    transition: all .3s ease;
+    transition: all .5s ease;
 }
 
 .butomPruebaFF:hover{
@@ -101,7 +101,7 @@
 }
 
 .listFenix:hover{
-    transition: all .3s ease;
+    transition: all .4s ease;
     transform: scale(1.2);
     color: #B6BA00;
     font-style: oblique;

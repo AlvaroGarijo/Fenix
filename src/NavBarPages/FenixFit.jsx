@@ -15,7 +15,7 @@ export const FenixFit = () => {
 
             <div className='info1'>
                 <div className='orderInfo1'>
-                    <img className='iconFenixFit' src="https://img.freepik.com/vector-gratis/plantilla-logotipo-ave-fenix_15146-287.jpg?size=338&ext=jpg" alt="icon" />
+                    <img className='iconFenixFit' src='./img/logoFenix.jpeg' alt="icon" />
                     <p className='parrafoFit'>
                         Fenix Fit es un recurso para entrenadores,
                         pensado para que puedas tener el máximo control sobre tu negocio Fitness.

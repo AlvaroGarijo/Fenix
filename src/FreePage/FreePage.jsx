@@ -17,7 +17,7 @@ export const FreePage = () => {
                     </div>
                     <div className='orderFormFree2'>
                         <h2 className='FenixFree'>FENIX FIT</h2>
-                        <img src="https://img.freepik.com/vector-gratis/plantilla-logotipo-ave-fenix_15146-287.jpg?size=338&ext=jpg" alt="FenixLogoFree" />
+                        <img className='imgFreePage' src='./img/logoFenix.jpeg' alt="FenixLogoFree" />
                         <h4 className='sloganFreePage' >BIENVENIDO A TU PRUEBA GRATUITA DE 30 DIAS</h4>
                     </div>
                 </div>

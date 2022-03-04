@@ -88,14 +88,19 @@
 
 .FenixFree {
     font-family: EastBorder;
-    letter-spacing: 3px;
     font-size: 3rem;
-    padding-bottom: 20px;
+   
+}
+
+.imgFreePage{
+    width: 400px;
+    height: 400px;
 }
 
 .sloganFreePage {
-    padding-top: 30px;
+    padding-top: 10px;
     text-align: center;
     font-size: 2.8rem;
     font-family: EastBorder;
+    width: 70%;
 }
