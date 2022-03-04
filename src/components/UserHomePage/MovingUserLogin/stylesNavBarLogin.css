@@ -1,0 +1,50 @@
+.NavBarUser {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(116, 116, 116);
+    height: 100vh;
+    width: 20%;
+    color: white;
+    border-right: 2px solid rgb(33, 64, 75);
+}
+
+.imgUserLog {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 40px;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.nameUser {
+    margin-bottom: 80px;
+
+}
+
+.listUserLog {
+    list-style: none;
+    text-align: center;
+}
+
+.listUserLog li {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid white;
+    width: 150px;
+}
+
+.listUserLog li:hover {
+    color: black;
+    border-radius: 10px;
+    text-shadow: 1px 1px 2px rgb(107, 107, 107);
+    font-size: 1.3rem;
+}
+
+.imgLogoFenix {
+    margin-top: 200px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}

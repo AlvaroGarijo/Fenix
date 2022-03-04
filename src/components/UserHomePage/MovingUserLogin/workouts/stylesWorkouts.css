@@ -1,0 +1,42 @@
+
+.workoutsTitle {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.8rem;
+}
+
+.activity {
+    width: 80%;
+    border-radius: 5px;
+    margin-left: 10%;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    letter-spacing: 5px;
+    border: 1px solid rgb(121, 121, 121);
+    box-shadow: 2px 2px 2px rgb(49, 49, 49);
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: white;
+}
+
+.orderAddInput {
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+}
+
+.addInput {
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.addButton {
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    box-shadow: 2px 2px 2px rgb(0, 0, 48);
+    background-color: rgb(79, 79, 255);
+}

@@ -16,13 +16,13 @@ import { Home } from '../Pages/Home';
 import { FreePage } from '../freePage/FreePage';
 import { UserLoginHome } from './UserHomePage/UserLoginHome';
 import { Planing } from './UserHomePage/MovingUserLogin/planing/Planing';
-import { Library } from './UserHomePage/MovingUserLogin/library/Library';
+import { Workouts } from './UserHomePage/MovingUserLogin/workouts/Workouts';
 
 
 
 
 
-const LineaDeRuta =()=>{
+const LineaDeRuta=()=>{
     return (
         <BrowserRouter>
              <Routes>
@@ -39,7 +39,7 @@ const LineaDeRuta =()=>{
 
                  
                  <Route path="/Planing" element={<Planing/>}/>
-                 <Route path="/Library" element={<Library/>}/>
+                 <Route path="/Workouts" element={<Workouts/>}/>
                  </Routes>
                 
         </BrowserRouter>
