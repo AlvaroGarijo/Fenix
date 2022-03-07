@@ -16,10 +16,7 @@ export const Opinions = () => {
                     <p className='opinion'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                         Mauris ipsum orci, sollicitudin vitae sapien vitae, tincidunt ultrices tortor.
                         Sed ac eros sed libero eleifend hendrerit. Suspendisse eu lectus risus.
-                        Duis non quam non nisl elementum interdum. Praesent eget condimentum neque.
-                        Sed pulvinar erat lacus, ac ornare eros vulputate nec. Aenean vel velit sit
-                        amet tellus sodales consequat congue ac justo. Sed ut massa libero. Vestibulum
-                        feugiat urna id urna maximus, sed sodales nulla eleifend.
+                        Duis non quam non nisl elementum interdum. feugiat urna id urna maximus, sed sodales nulla eleifend.
                     </p>
                 </div>
 
@@ -30,9 +27,7 @@ export const Opinions = () => {
                     <p className='opinion'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                         Mauris ipsum orci, sollicitudin vitae sapien vitae, tincidunt ultrices tortor.
                         Sed ac eros sed libero eleifend hendrerit. Suspendisse eu lectus risus.
-                        Duis non quam non nisl elementum interdum. Praesent eget condimentum neque.
-                        Sed pulvinar erat lacus, ac ornare eros vulputate nec. Aenean vel velit sit
-                        amet tellus sodales consequat congue ac justo. Sed ut massa libero. Vestibulum
+                        Duis non quam non nisl elementum interdum.  tellus sodales consequat congue ac justo. Sed ut massa libero. Vestibulum
                         feugiat urna id urna maximus, sed sodales nulla eleifend. </p>
                 </div>
 
@@ -43,9 +38,7 @@ export const Opinions = () => {
                     <p className='opinion'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                         Mauris ipsum orci, sollicitudin vitae sapien vitae, tincidunt ultrices tortor.
                         Sed ac eros sed libero eleifend hendrerit. Suspendisse eu lectus risus.
-                        Duis non quam non nisl elementum interdum. Praesent eget condimentum neque.
-                        Sed pulvinar erat lacus, ac ornare eros vulputate nec. Aenean vel velit sit
-                        amet tellus sodales consequat congue ac justo. Sed ut massa libero. Vestibulum
+                        Duis non quam non nisl eleme congue ac justo. Sed ut massa libero. Vestibulum
                         feugiat urna id urna maximus, sed sodales nulla eleifend. </p>
                 </div>
 
@@ -57,9 +50,7 @@ export const Opinions = () => {
                         Mauris ipsum orci, sollicitudin vitae sapien vitae, tincidunt ultrices tortor.
                         Sed ac eros sed libero eleifend hendrerit. Suspendisse eu lectus risus.
                         Duis non quam non nisl elementum interdum. Praesent eget condimentum neque.
-                        Sed pulvinar erat lacus, ac ornare eros vulputate nec. Aenean vel velit sit
-                        amet tellus sodales consequat congue ac justo. Sed ut massa libero. Vestibulum
-                        feugiat urna id urna maximus, sed sodales nulla eleifend. </p>
+                        Sed pulvinar erat lacus, aced sodales nulla eleifend. </p>
                 </div>
 
                 <div className='cardOpinion'>
@@ -70,9 +61,7 @@ export const Opinions = () => {
                         Mauris ipsum orci, sollicitudin vitae sapien vitae, tincidunt ultrices tortor.
                         Sed ac eros sed libero eleifend hendrerit. Suspendisse eu lectus risus.
                         Duis non quam non nisl elementum interdum. Praesent eget condimentum neque.
-                        Sed pulvinar erat lacus, ac ornare eros vulputate nec. Aenean vel velit sit
-                        amet tellus sodales consequat congue ac justo. Sed ut massa libero. Vestibulum
-                        feugiat urna id urna maximus, sed sodales nulla eleifend. </p>
+                        Sed pulvinar erat lacus, ac ornare eros  eleifend. </p>
                 </div>
 
                 <div className='cardOpinion'>
@@ -83,9 +72,7 @@ export const Opinions = () => {
                         Mauris ipsum orci, sollicitudin vitae sapien vitae, tincidunt ultrices tortor.
                         Sed ac eros sed libero eleifend hendrerit. Suspendisse eu lectus risus.
                         Duis non quam non nisl elementum interdum. Praesent eget condimentum neque.
-                        Sed pulvinar erat lacus, ac ornare eros vulputate nec. Aenean vel velit sit
-                        amet tellus sodales consequat congue ac justo. Sed ut massa libero. Vestibulum
-                        feugiat urna id urna maximus, sed sodales nulla eleifend. </p>
+                        Sed pulvinar erat lacus, acsed sodales nulla eleifend. </p>
                 </div>
 
                 <div className='cardOpinion'>
@@ -95,10 +82,8 @@ export const Opinions = () => {
                     <p className='opinion'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                         Mauris ipsum orci, sollicitudin vitae sapien vitae, tincidunt ultrices tortor.
                         Sed ac eros sed libero eleifend hendrerit. Suspendisse eu lectus risus.
-                        Duis non quam non nisl elementum interdum. Praesent eget condimentum neque.
-                        Sed pulvinar erat lacus, ac ornare eros vulputate nec. Aenean vel velit sit
-                        amet tellus sodales consequat congue ac justo. Sed ut massa libero. Vestibulum
-                        feugiat urna id urna maximus, sed sodales nulla eleifend. </p>
+                        Duis non quam non nisl elemeare eros vulputate nec. Aenean vel velit sit
+                        amet tellus sodales consequa sed sodales nulla eleifend. </p>
                 </div>
 
                 <div className='cardOpinion'>
@@ -109,9 +94,7 @@ export const Opinions = () => {
                         Mauris ipsum orci, sollicitudin vitae sapien vitae, tincidunt ultrices tortor.
                         Sed ac eros sed libero eleifend hendrerit. Suspendisse eu lectus risus.
                         Duis non quam non nisl elementum interdum. Praesent eget condimentum neque.
-                        Sed pulvinar erat lacus, ac ornare eros vulputate nec. Aenean vel velit sit
-                        amet tellus sodales consequat congue ac justo. Sed ut massa libero. Vestibulum
-                        feugiat urna id urna maximus, sed sodales nulla eleifend. </p>
+                        Sed pulvinar erat lacus, ac ornaales nulla eleifend. </p>
                 </div>
             </div>
         </>

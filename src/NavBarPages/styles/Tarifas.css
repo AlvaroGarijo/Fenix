@@ -1,32 +1,32 @@
 .cabeceraSloganImage {
     display: flex;
-    justify-content: space-around;
     align-items: center;
-    margin: 5%;
-    margin-bottom: 200px;
+    background-color: rgba(241, 241, 253, 0.521);
+
 }
 
 .imgTarifas {
-    width: 40%;
-    border-radius: 10px;
-    box-shadow: 5px 5px 5px 5px lightgrey;
+    width: 100%;
+    height: 110vh;
 }
 
 .sloganTarifas {
-    width: 30%;
-    padding: 20px;
+    background-color: white;
+    position:absolute;
+    width: 40%;
     font-family: sans-serif;
-    font-size: 50px;
-    margin-left: 20px;
-    text-align: right;
-    border-radius: 15px;
-    box-shadow: 15px 15px 15px lightgrey;
+    font-size: 5rem;
+    text-align: center;
+    margin-left: 10%;
+    padding: 20px;
+    box-shadow: 10px 20px 20px 15px rgb(26, 26, 26);
 }
 
 .sloganTarifas:hover{
     transition: all .6s ease-in-out;
-    transform: scale(1.3);
+    transform: scale(1.1);
 }
+
 
 .tarifasFF {
     font-size: 40px;
@@ -37,20 +37,17 @@
 }
 
 .cuadroPagos {
-    margin-right: 50px;
-    margin-left: 50px;
     padding: 30px;
-    background-color: rgba(220, 225, 252, 0.37);
+    background-color: rgba(255, 255, 255, 0.37);
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    border-radius: 15px;
-    box-shadow: 5px 5px 5px rgb(219, 219, 219);
+    
 }
 
 .cuadroPago1 {
-    background-color: rgba(209, 209, 255, 0.521);
+    background-color: rgba(219, 219, 224, 0.521);
     width: 80%;
     display: flex;
     flex-direction: row;
@@ -59,8 +56,7 @@
     text-align: center;
     margin: 10px;
     padding: 20px;
-    border-radius: 15px;
-    box-shadow: 3px 3px 3px rgb(219, 219, 219);
+    box-shadow: 3px 3px 3px rgb(211, 211, 211);
 }
 
 .tarifa {
@@ -71,24 +67,22 @@
 .buttomSuscribe {
     width: 300px;
     height: 100px;
-    color: white;
+    color: rgb(66, 65, 65);
     font-size: 30px;
-    background-color: rgba(71, 195, 252, 0.904);
-    border-radius: 15px;
+    background-color: rgba(224, 243, 252, 0.904);
     border: none;
-    box-shadow: 5px 5px 5px gray;
+    box-shadow: 5px 5px 5px rgb(180, 180, 180);
 }
 
 .buttomSuscribe1{
     width: 300px;
     height: 100px;
     margin-left: 60px;
-    color: white;
     font-size: 30px;
-    background-color: rgba(71, 195, 252, 0.904);
-    border-radius: 15px;
+    color: rgb(66, 65, 65);
+    background-color: rgba(224, 243, 252, 0.904);
     border: none;
-    box-shadow: 5px 5px 5px gray;
+    box-shadow: 5px 5px 5px rgb(180, 180, 180);
 }
 
 .buttomSuscribe:hover,
@@ -96,6 +90,11 @@
 .buttomFree:hover{
     transition: all .3s ease;
     transform: scale(1.1);
+}
+
+.buttomFree:hover{
+    background-color: rgb(109, 109, 6);
+    color: black;
 }
 
 
@@ -115,7 +114,6 @@
     font-size: 3.5rem;
     text-align: center;
     color: rgb(255, 255, 255);
-    border-radius: 15px;
     padding: 30px;
     border: none;
     box-shadow: 5px 5px 5px gray;
@@ -130,7 +128,6 @@
     width: 400px;
     height: 300px;
     margin-right: 300px;
-    border-radius: 15px;
     border: none;
     box-shadow: 5px 5px 5px gray;
     margin: 20px;

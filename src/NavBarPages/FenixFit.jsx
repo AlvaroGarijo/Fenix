@@ -4,18 +4,19 @@ import './styles/FenixFit.css'
 
 
 export const FenixFit = () => {
-
+            
     return (
+
+        
         <>
             <div class='imagesCarrousel'>
-                <img className='imgFF' src="https://ichef.bbci.co.uk/news/640/amz/worldservice/live/assets/images/2015/08/17/150817145859_mujeres_gimnasio_624x351_getty.jpg" alt="" srcset="" />
-                <img className='imgFFGreat' src="https://www.dondeporte.com/blog/wp-content/uploads/2017/04/entrenador-personal-e1622089930483-624x351.jpg" alt="" srcset="" />
-                <img className='imgFF' src="https://www.dir.cat/blog/wp-content/uploads/2012/07/crossfit-triatletes-828x430.jpg" alt="" srcset="" />
+                <img className='imgFF' src='./img/imgPrincipal10.jpg' alt="" srcset="" />
+                <img className='imgFFGreat' src='./img/imgPrincipal6.jpeg' alt="" srcset="" />
+                <img className='imgFF' src='./img/imgPrincipal8.JPG' alt="" srcset="" />
             </div>
 
             <div className='info1'>
                 <div className='orderInfo1'>
-                    <img className='iconFenixFit' src='./img/logoFenix.jpeg' alt="icon" />
                     <p className='parrafoFit'>
                         Fenix Fit es un recurso para entrenadores,
                         pensado para que puedas tener el máximo control sobre tu negocio Fitness.

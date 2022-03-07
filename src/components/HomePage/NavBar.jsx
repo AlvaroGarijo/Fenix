@@ -6,7 +6,7 @@ const NavBar = () => {
         <>
             <nav className='orderNav'>
                 <div className='orderLogo' >
-                    <img className="logoNav" src='./img/logoFenix.jpeg' alt="LogoFenix" />
+                    <img className="logoNav" src='../img/logoFenixRojo.webp' alt="LogoFenix" />
                     <div className='titleNav'> <a href="./">FENIX FIT </a> </div>
                 </div>
                 <div className='orderListNav'>
@@ -23,7 +23,6 @@ const NavBar = () => {
                 </div>
             </nav>
         </>
-
     )
 }
 

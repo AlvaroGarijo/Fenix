@@ -7,7 +7,7 @@ export const Login = () => {
         <>
             <div className='orderLogin'>
                 <div className='orderFirst'>
-                    <img className='logoFenixLogin' src='./img/logoFenixRojo.webp' alt="LogoFenix" />
+                    <img className='imgGroup' src='./img/group2.jpeg' alt="LogoFenix" />
                     <h2 className='family'>
                         UNETE A LA FAMILIA FENIX
                     </h2>

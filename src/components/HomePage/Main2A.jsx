@@ -7,7 +7,7 @@ export const Main2A = () => {
             <div className='orden2'>
 
                 <div >
-                    <img className='img2' src="https://st2.depositphotos.com/1213280/7033/i/600/depositphotos_70335379-stock-photo-young-athletic-woman.jpg" alt="imgFit2" />
+                    <img className='img2' src='../img/grupo-movil.jpeg' alt="imgFit2" />
                 </div>
                 <div className='list1'>
                     <div> <i className="fa-desktop"> DIGITALIZA TU PROFESIÓN</i></div>

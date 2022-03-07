@@ -6,7 +6,7 @@ export const StartSesion = () => {
     return (
         <>
             <div className='orderStart'>
-                <img className='imgLogo' src="https://img.freepik.com/vector-gratis/plantilla-logotipo-ave-fenix_15146-286.jpg?size=338&ext=jpg" alt="FenixLogo" />
+                <img className='imgLogo' src='./img/logoFenixRojo.webp' alt="FenixLogo" />
                 <div className='Login'>
                     <form className='formUser'>
                         <img className='imgUser' src='img/userIcon.png' alt="userLogo" />

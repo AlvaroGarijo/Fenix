@@ -7,7 +7,7 @@ export const Tarifas = () => {
     return (
         <div>
             <div className='cabeceraSloganImage'>
-                <img className='imgTarifas' src="https://i.ytimg.com/vi/j1RdHmefjmI/maxresdefault.jpg" alt="" />
+                <img className='imgTarifas' src='./img/imgAbajo1.jpeg' alt="" />
                 <h1 className='sloganTarifas'>Invierte en Futuro Invierte en FENIX FIT</h1>
 
             </div>

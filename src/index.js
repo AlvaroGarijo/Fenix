@@ -11,9 +11,8 @@ ReactDOM.render (
          <>
             <FreePageBar/>,
             <NavBar/>,
-            <LineaDeRuta/>
+            <LineaDeRuta/>,
             <Footer/>,
-        </>,
-
-     document.querySelector('#root')
+         </>
+     ,document.querySelector('#root')
 );

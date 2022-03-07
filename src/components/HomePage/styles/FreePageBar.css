@@ -7,6 +7,7 @@
     background-color: rgb(164, 164, 1);
     text-decoration: none;
     box-shadow: 2px 2px 2px rgb(46, 35, 0);
+    z-index: 1;
 }
 
 .freeNav :hover{

@@ -18,7 +18,6 @@
     width: 100%;
     height: 140px;
     padding-top: 20px;
-    border-bottom: 2px solid rgb(203, 218, 249)
 }
 
 .orderLogo {
@@ -86,13 +85,15 @@
     letter-spacing: 1px;
     font-size: 1rem;
     background: #8b8900e1;
-    border-radius: 10px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 3px 3px 3px rgb(180, 179, 179);
     transition: all .3s ease;
+    border: none;
 
 }
 .login:hover,
-.iniciaSesion:hover{
+.login a:hover,
+.iniciaSesion:hover,
+.iniciaSesion a:hover{
     color:black;
     transform: scale(1.15);
 }
