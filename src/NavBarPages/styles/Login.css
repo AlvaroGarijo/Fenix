@@ -128,3 +128,16 @@
     transform: scale(1.1);
     background-color: rgb(122, 122, 0);
 }
+
+@media only screen and (max-width: 1500px) {
+    .imgGroup {
+        height: 500px;
+    }
+    .orderSecond{
+        height: 60%;
+        width: 50%;
+        padding: 3%
+    }
+    
+    
+  }

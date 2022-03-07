@@ -1,9 +1,9 @@
 import React from 'react'
 
-import { NavBarLogin } from './MovingUserLogin/NavBarLogin';
-import { ToAddClient } from './MovingUserLogin/newUser/ToAddClient';
-import{ Planing } from './MovingUserLogin/planing/Planing'
-import { Workouts } from './MovingUserLogin/workouts/Workouts';
+import { NavBarLogin } from './MovingUserLogin/navbarLogin/NavBarLogin';
+import { ToAddClient } from './MovingUserLogin/navbarLogin/newUser/ToAddClient';
+import{ Planing } from './MovingUserLogin/navbarLogin/planing/Planing'
+import { Workouts } from './MovingUserLogin/navbarLogin/workouts/Workouts';
 
 import './stylesUserLoginHome.css';
 

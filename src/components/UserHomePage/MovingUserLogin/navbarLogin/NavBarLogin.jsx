@@ -15,7 +15,7 @@ export const NavBarLogin = () => {
                       
                     </div>
                     <img className='imgLogoFenix' src='../img/logoFenixRojo.webp' alt="LogoFenix" />
-                    <h3>Fenix Fit</h3>
+                    <h3 className='titleNavBar'>FENIX FIT</h3>
                 </div>
   )
 }

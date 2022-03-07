@@ -15,8 +15,8 @@ import {Opinions}  from '../navBarPages/Opinions';
 import { Home } from '../Pages/Home';
 import { FreePage } from '../freePage/FreePage';
 import { UserLoginHome } from './UserHomePage/UserLoginHome';
-import { Planing } from './UserHomePage/MovingUserLogin/planing/Planing';
-import { Workouts } from './UserHomePage/MovingUserLogin/workouts/Workouts';
+import { Planing } from './UserHomePage/MovingUserLogin/navbarLogin/planing/Planing';
+import { Workouts } from './UserHomePage/MovingUserLogin/navbarLogin/workouts/Workouts';
 
 
 
