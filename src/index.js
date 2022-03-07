@@ -9,10 +9,10 @@ import LineaDeRuta from './components/AppRouter';
 ReactDOM.render (
 //HomePage Renderizada
          <>
-            <FreePageBar/>,
-            <NavBar/>,
-            <LineaDeRuta/>,
-            <Footer/>,
+            <FreePageBar/>
+            <NavBar/>
+            <LineaDeRuta/>
+            <Footer/>
          </>
      ,document.querySelector('#root')
 );
