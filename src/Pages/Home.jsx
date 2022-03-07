@@ -9,11 +9,11 @@ import { Main2A } from '../components/HomePage/Main2A';
 export const Home = () => {
     return (
         <div>
-            <Main1 />,
-            <Main2 />,
-            <Cards />,
-            <Main2A />
-            <Slogan />
+            <Main1/>
+            <Main2/>
+            <Cards/>
+            <Main2A/>
+            <Slogan/>
         </div>
     )
 }

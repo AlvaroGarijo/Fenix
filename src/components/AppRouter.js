@@ -36,11 +36,11 @@ const LineaDeRuta=()=>{
                  <Route path="/UserLoginHome" element={<UserLoginHome/>}/>
 
                  {/* Movimientos Dentro de Usuario Logueado */}
-
+                
                  
                  <Route path="/Planing" element={<Planing/>}/>
                  <Route path="/Workouts" element={<Workouts/>}/>
-                 </Routes>
+             </Routes>
                 
         </BrowserRouter>
 )

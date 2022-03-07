@@ -10,12 +10,12 @@ export const Main2A = () => {
                     <img className='img2' src='../img/grupo-movil.jpeg' alt="imgFit2" />
                 </div>
                 <div className='list1'>
-                    <div> <i className="fa-desktop"> DIGITALIZA TU PROFESIÓN</i></div>
-                    <div> <i className="fa-desktop"> MAYOR CONTROL SOBRE TUS CLIENTES</i></div>
-                    <div><i className="fa-desktop">CONTROL DE PAGOS</i></div>
-                    <div><i className="fa-desktop">PERSONALIZA AL MÁXIMO TUS ENTRENAMIENTOS</i></div>
-                    <div><i className="fa-desktop">CREA TU PROPIA LIBRERIA</i></div>
-                    <div><i className="fa-desktop">COMUNICATE DE MANERA RÁPIDA Y CONTÍNUA</i></div>
+                    <div> DIGITALIZA TU PROFESIÓN</div>
+                    <div> MAYOR CONTROL SOBRE TUS CLIENTES</div>
+                    <div> CONTROL DE PAGOS</div>
+                    <div> PERSONALIZA AL MÁXIMO TUS ENTRENAMIENTOS</div>
+                    <div> CREA TU PROPIA LIBRERIA</div>
+                    <div> COMUNICATE DE MANERA RÁPIDA Y CONTÍNUA</div>
                 </div>
             </div>
         </div>

@@ -66,6 +66,7 @@
     background: #fff;
     position: absolute;
     top: 50%;
+    width: 200px;
     transform: translateY(-50%);
 }
 .card .details .center h1 {
@@ -118,3 +119,18 @@
     
     }
   }
+
+
+  @media only screen and (max-width: 1500px) {
+      
+    .card .details .center {
+          width: 150px;
+          height: 200px;
+    }
+    .card .details .center h1,
+      .card .details .center h1 span{
+        font-size: 12px;    
+    }
+
+  }
+  

@@ -1,7 +1,7 @@
 import React from 'react'
 
 import { NavBarLogin } from './MovingUserLogin/navbarLogin/NavBarLogin';
-import{ Planing } from './MovingUserLogin/navbarLogin/planing/Planing'
+
 
 import './stylesUserLoginHome.css';
 
@@ -10,9 +10,9 @@ export const UserLoginHome = () => {
         <div>
             
             <div className='orderWrapp'>
-                 <NavBarLogin/>
-                 <Planing/>
-           
+                <NavBarLogin/>
+                
+              
         </div>     
         </div>
     )

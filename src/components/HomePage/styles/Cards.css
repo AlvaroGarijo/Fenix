@@ -3,33 +3,41 @@ h2 {
     justify-content: center;
     margin-top: 40px;
 }
-
-.cards {
+.titleHomeCard{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2.6rem;
+}
+.cardsHome {
     display: flex;
     flex-direction: row;
     justify-content: center;
     margin: 80px auto;
-    font-style: oblique;
 }
 
-.card {
+.cardHome {
     display: flex;
+    flex-direction: column;
     flex-wrap: nowrap;
     margin: 10px;
+    padding-top: 20px;
     width: 250px;
+    color: rgb(32, 32, 32);
+    letter-spacing: 1px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.2rem;
     text-align: center;
     border: none;
     box-shadow: 3px 3px 4px 2px rgb(209, 209, 187);
 }
 
-.card-icon {
+.card-iconHome {
     margin: auto;
     width: 100px;
     height: 100px;
     padding: 20px;
 }
 
-.letters {
+.lettersHome {
     display: flex;
     justify-content: center;
     background: white;

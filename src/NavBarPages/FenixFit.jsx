@@ -6,8 +6,6 @@ import './styles/FenixFit.css'
 export const FenixFit = () => {
             
     return (
-
-        
         <>
             <div class='imagesCarrousel'>
                 <img className='imgFF' src='./img/imgPrincipal10.jpg' alt="" srcset="" />

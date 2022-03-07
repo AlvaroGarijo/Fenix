@@ -36,7 +36,7 @@
 
 .useFenix {
     text-align: center;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Helvetica;
     display: flex;
     flex-direction: column;
     color: rgb(211, 209, 209);
