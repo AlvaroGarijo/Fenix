@@ -92,6 +92,7 @@
     justify-content: center;
     align-items: center;
     font-family: Helvetica, sans-serif;
+    text-align: center;
 }
 
 @media screen and (max-width: 1500px) {

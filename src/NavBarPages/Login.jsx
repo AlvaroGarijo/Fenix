@@ -39,7 +39,7 @@ export const Login = () => {
                                 <span className="internalForm1">Teléfono: </span>
                                 <input type="text" className="internalForm2 " name="Teléfono" placeholder="Teléfono" id="phoneNumber" required />
                             </div>
-                           
+
 
 
                             {/* IMPORTANTE CAMBIAR RUTAS DE LOGUEARSE */}

@@ -4,18 +4,19 @@ import {
     Routes,
     Route,
 } from 'react-router-dom';
-import { Login } from '../NavBarPages/Login';
-import { StartSesion } from '../NavBarPages/StartSesion';
-import { FenixFit } from '../NavBarPages/FenixFit';
-import { Tarifas } from '../NavBarPages/Tarifas';
-import { Opinions } from '../NavBarPages/Opinions';
-import { Home } from '../Pages/Home';
-import { FreePage } from '../FreePage/FreePage';
-import { UserLoginHome } from './UserHomePage/UserLoginHome';
-import { Planing } from './UserHomePage/MovingUserLogin/navbarLogin/planing/Planing';
-import { Workouts } from './UserHomePage/MovingUserLogin/navbarLogin/workouts/Workouts';
-import { ToAddClient } from './UserHomePage/MovingUserLogin/navbarLogin/newUser/ToAddClient';
-import { Clients } from './UserHomePage/MovingUserLogin/navbarLogin/clients/Clients';
+import { Login } from '../../NavBarPages/Login';
+import { StartSesion } from '../../NavBarPages/StartSesion';
+import { FenixFit } from '../../NavBarPages/FenixFit';
+import { Tarifas } from '../../NavBarPages/Tarifas';
+import { Opinions } from '../../NavBarPages/Opinions';
+import { Home } from '../../Pages/Home';
+import { FreePage } from '../../FreePage/FreePage';
+import { UserLoginHome } from '../UserHomePage/UserLoginHome';
+import { Planing } from '../UserHomePage/MovingUserLogin/navbarLogin/planing/Planing';
+import { Workouts } from '../UserHomePage/MovingUserLogin/navbarLogin/workouts/Workouts';
+import { ToAddClient } from '../UserHomePage/MovingUserLogin/navbarLogin/newUser/ToAddClient';
+import { Clients } from '../UserHomePage/MovingUserLogin/navbarLogin/clients/Clients';
+import { MovingRouter } from '../../MovingRouter';
 
 
 
@@ -26,6 +27,7 @@ const LineaDeRuta = () => {
         <BrowserRouter>
             <Routes>
                 <Route path="/" element={<Home />} />
+                <Route path="/MovingRouter" element={<MovingRouter />} />
                 <Route path="/Login" element={<Login />} />
                 <Route path="/StartSesion" element={<StartSesion />} />
                 <Route path="/FenixFit" element={<FenixFit />} />

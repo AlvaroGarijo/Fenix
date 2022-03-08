@@ -144,3 +144,11 @@
     font-weight: bolder;
     font-style: oblique;
 }
+
+
+@media screen and (max-width: 1500px) {
+    .sloganTarifas{
+        font-size:2rem;
+    }
+
+}

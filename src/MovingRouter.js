@@ -1,8 +1,10 @@
 import React from 'react'
 import { FreePageBar } from './FreePage/FreepageBar';
 import NavBar from './components/HomePage/NavBar';
-import LineaDeRuta from './components/AppRouter';
+import LineaDeRuta from './components/routes/AppRouter';
 import { Footer } from './components/HomePage/Footer'
+
+
 
 export const MovingRouter = () => {
   return (
