@@ -10,7 +10,7 @@ import { ToAddClient } from './UserHomePage/MovingUserLogin/navbarLogin/newUser/
 import { Planing } from './UserHomePage/MovingUserLogin/navbarLogin/planing/Planing';
 import { Workouts } from './UserHomePage/MovingUserLogin/navbarLogin/workouts/Workouts';
 import { Clients } from './UserHomePage/MovingUserLogin/navbarLogin/clients/Clients';
-import { NavBarLogin } from './UserHomePage/MovingUserLogin/navbarLogin/NavBarLogin';
+
 
 
 export const MovingRouter = () => {

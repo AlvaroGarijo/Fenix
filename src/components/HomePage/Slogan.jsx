@@ -10,7 +10,7 @@ export const Slogan = () => {
             <img className='img' src="https://conceptodefinicion.de/wp-content/uploads/2016/12/Fitness2.jpg" alt="pesa" />
             <div className='slogan'>Gestiona mejor a tus clientes</div>
             <img className='img' src="https://www.tododisca.com/wp-content/uploads/2021/03/Ejercicios-fitness--1140x740.jpg" alt="pesa" />
-            <div className='slogan'>Entrena más</div>
+            <div className='slogan'>Entrena más para tí mismo</div>
             <img className='img' src="https://victusport.com/wp-content/uploads/2019/10/cuerpo-fitness.jpg" alt="pesa" />
         </div>
 

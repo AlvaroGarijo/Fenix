@@ -11,14 +11,14 @@ export const StartSesion = () => {
                     <form className='formUser'>
                         <img className='imgUser' src='img/userIcon.png' alt="userLogo" />
                         <div className='positionIcon1'>
-                            <label htmlFor="Usuario">Nombre de Usuario:</label>
+                            <label className="userStart" htmlFor="userStart">Nombre de Usuario:</label>
                             <input type="text" id="usuario" placeholder='Usuario' />
                         </div>
                     </form>
                     <form className='formPassword'>
                         <img className='imgUser' src='img/passwordIcon.png' alt="userLogo" />
                         <div className='positionIcon2'>
-                            <label htmlFor="Password">Password:</label>
+                            <label className='passwordStart' htmlFor="passwordStart">Password:</label>
                             <input type="password" id="clave" required placeholder='Password' />
                         </div>
                     </form>
