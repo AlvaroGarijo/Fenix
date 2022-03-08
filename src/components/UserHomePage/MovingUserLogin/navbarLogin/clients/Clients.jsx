@@ -1,11 +1,12 @@
 import React from 'react'
+import { NavBarLogin } from '../NavBarLogin'
 
 
 export const Clients = () => {
   return (
       <>
-       
-       <h1>Clientes</h1>
+       <NavBarLogin/>
+       <Clients/>
       </>
   )
 }

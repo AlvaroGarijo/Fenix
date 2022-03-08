@@ -9,14 +9,13 @@ import { StartSesion } from '../navBarPages/StartSesion';
 import { FenixFit } from '../navBarPages/FenixFit';
 import { Tarifas } from '../navBarPages/Tarifas';
 import {Opinions}  from '../navBarPages/Opinions';
-
-// LO DE AQUI ABAJO SE HACE DE OTRA MANERA (LOGUEADO)
-
 import { Home } from '../Pages/Home';
 import { FreePage } from '../freePage/FreePage';
 import { UserLoginHome } from './UserHomePage/UserLoginHome';
 import { Planing } from './UserHomePage/MovingUserLogin/navbarLogin/planing/Planing';
 import { Workouts } from './UserHomePage/MovingUserLogin/navbarLogin/workouts/Workouts';
+import { ToAddClient } from './UserHomePage/MovingUserLogin/navbarLogin/newUser/ToAddClient';
+import { Clients } from './UserHomePage/MovingUserLogin/navbarLogin/clients/Clients';
 
 
 
@@ -34,12 +33,10 @@ const LineaDeRuta=()=>{
                  <Route path="/Opinions" element={<Opinions/>}/>
                  <Route path="/FreePage" element= {<FreePage/>}/>
                  <Route path="/UserLoginHome" element={<UserLoginHome/>}/>
-
-                 {/* Movimientos Dentro de Usuario Logueado */}
-                
-                 
                  <Route path="/Planing" element={<Planing/>}/>
                  <Route path="/Workouts" element={<Workouts/>}/>
+                 <Route path="/ToAddClients" element={<ToAddClient/>}/>
+                 <Route path="/Clients" element={<Clients/>}/>
              </Routes>
                 
         </BrowserRouter>

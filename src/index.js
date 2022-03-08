@@ -1,18 +1,17 @@
 import React from 'react';
 import  ReactDOM  from 'react-dom';
-import   NavBar   from './components/HomePage/NavBar';
-import { Footer } from './components/HomePage/Footer';
-import { FreePageBar } from './components/HomePage/FreepageBar';
-import LineaDeRuta from './components/AppRouter';
+import { UserLoginPages } from './components/UserLoginPages';
+import { MovingRouter } from './MovingRouter';
+
 
 
 ReactDOM.render (
 //HomePage Renderizada
          <>
-            <FreePageBar/>
-            <NavBar/>
-            <LineaDeRuta/>
-            <Footer/>
+            {/* <MovingRouter/> */}
+
+            {/* if()----condición si existe un token, llevar directamente a LOGIN */}
+            <UserLoginPages/>
          </>
      ,document.querySelector('#root')
 );

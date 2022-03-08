@@ -1,5 +1,5 @@
 import React from 'react'
-import './styles/FreePageBar.css'
+import './style/FreePageBar.css'
 
 export const FreePageBar = () => {
   return (

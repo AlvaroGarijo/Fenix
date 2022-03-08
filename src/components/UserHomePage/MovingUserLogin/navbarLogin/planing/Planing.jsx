@@ -1,16 +1,14 @@
 import React from 'react'
-
-
 import './stylesPlaning.css'
+import { NavBarLogin } from '../NavBarLogin'
 
 export const Planing = () => {
 
 
     return (
-        <div className='controlUserWeb'>
-        <h1 className='titleUserWeb'>PLANIFICA TUS ENTRENAMIENTOS</h1>
-            
-
-        </div>
+       <>
+       <NavBarLogin/>
+       <Planing/>
+       </>
     )
 }
