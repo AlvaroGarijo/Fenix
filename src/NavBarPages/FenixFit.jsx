@@ -4,13 +4,13 @@ import './styles/FenixFit.css'
 
 
 export const FenixFit = () => {
-            
+
     return (
         <>
             <div class='imagesCarrousel'>
-                <img className='imgFF' src='./img/imgPrincipal10.jpg' alt="" srcset="" />
-                <img className='imgFFGreat' src='./img/imgPrincipal6.jpeg' alt="" srcset="" />
-                <img className='imgFF' src='./img/imgPrincipal8.JPG' alt="" srcset="" />
+                <img className='imgFF' src='./img/imgPrincipal10.jpg' alt="img1" />
+                <img className='imgFFGreat' src='./img/en-casa.jpg' alt="img2" />
+                <img className='imgFF' src='./img/imgPrincipal12.jpg' alt="img3" />
             </div>
 
             <div className='info1'>

@@ -11,7 +11,7 @@
 }
 
 .titleFooter {
-    font-family: EastBorder;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
     margin: 20px;
     padding-bottom: 20px;
@@ -70,8 +70,9 @@
 
 .list2-copy {
     text-align: center;
-    font-family: sans-serif;
-    color: rgba(175, 175, 175, 0.815);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.2rem;
+    color: rgba(202, 202, 202, 0.815);
     list-style: none;
     margin: 30px;
 }

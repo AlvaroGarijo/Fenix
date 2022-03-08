@@ -7,34 +7,34 @@ export const Tarifas = () => {
     return (
         <div>
             <div className='cabeceraSloganImage'>
-                <img className='imgTarifas' src='./img/imgAbajo1.jpeg' alt="" />
+                <img className='imgTarifas' src='./img/imgCarrera.jpg' alt="" />
                 <h1 className='sloganTarifas'>Invierte en Futuro Invierte en FENIX FIT</h1>
 
             </div>
             <div className='tarifasFenixFit'>
-           
+
                 <div className='cuadroPagos'>
                     <h2 className='tarifasFF'>Tarifas Fénix Fit</h2>
                     <div className='cuadroPago1'>
-        
+
                         <p className='tarifa'>Hasta 7 Clientes 19 €</p>
                         <button className='buttomSuscribe1'> <i class="fa-solid fa-check-double"> Suscribete</i></button>
                     </div>
 
                     <div className='cuadroPago1'>
-                      
+
                         <p className='tarifa'>Hasta 20 Clientes 39 €</p>
                         <button className='buttomSuscribe'> <i class="fa-solid fa-check-double"> Suscribete</i></button>
                     </div>
 
                     <div className='cuadroPago1'>
-                       
+
                         <p className='tarifa'>Hasta 35 Clientes 69 €</p>
                         <button className='buttomSuscribe'> <i class="fa-solid fa-check-double"> Suscribete</i></button>
                     </div>
 
                     <div className='cuadroPago1'>
-                       
+
                         <p className='tarifa'>Hasta 50 Clientes 90 €</p>
                         <button className='buttomSuscribe'> <i class="fa-solid fa-check-double"> Suscribete</i></button>
                     </div>

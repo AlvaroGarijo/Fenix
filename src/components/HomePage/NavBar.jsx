@@ -11,9 +11,9 @@ const NavBar = () => {
                 </div>
                 <div className='orderListNav'>
                     <ol className='listNav'>
-                        <li> <a href="./FenixFit">FENIX FIT</a></li>
-                        <li> <a href="./Tarifas">TARIFAS</a></li>
-                        <li> <a href="./Opinions">OPINIONES</a></li>
+                        <li> <a className='listNavFenix' href="./FenixFit">FENIX FIT</a></li>
+                        <li> <a className='listNavFenix' href="./Tarifas">TARIFAS</a></li>
+                        <li> <a className='listNavFenix' href="./Opinions">OPINIONES</a></li>
                     </ol>
 
                     <div className='orderButton'>
