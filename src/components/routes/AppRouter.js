@@ -31,8 +31,8 @@ const LineaDeRuta = () => {
                 <Route
                     path="/*" element={
 
-                        <NavBarLogin />
-                        // <LinkNavBarRoute />
+                        // <NavBarLogin />
+                        <LinkNavBarRoute />
 
                     } />
                 <Route path="*" element={<NotFoundPage />} />

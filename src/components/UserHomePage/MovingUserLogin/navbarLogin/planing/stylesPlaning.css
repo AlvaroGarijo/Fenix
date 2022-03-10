@@ -1,9 +1,33 @@
-.controlUserWeb{
+.titlePlaning{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.squarePlaning{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 85vh;
+
+}
+
+.squareTime,
+.squareWork{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 80%;
-    height: 100vh;
+    background-color: rgb(236, 238, 234);
+    box-shadow: 6px 6px 4px rgb(141, 141, 141);
+    width: 35%;
+    height: 80%;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
+.internalUser,
+.internalWork{
+    display: flex;
+    flex-direction: column;
+}
+
 

@@ -1,12 +1,11 @@
 import React from 'react'
-import { NavBarLogin } from '../NavBarLogin'
+import './styleClient.css'
 
 
 export const Clients = () => {
   return (
-      <>
-       <NavBarLogin/>
-       <Clients/>
-      </>
+    <div>
+      <h1>Soy la página de Clientes</h1>
+    </div>
   )
 }

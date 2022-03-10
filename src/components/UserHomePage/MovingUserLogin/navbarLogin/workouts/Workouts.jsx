@@ -1,11 +1,10 @@
 import React from 'react'
-import { NavBarLogin } from '../NavBarLogin'
+
 import './stylesWorkouts.css'
 
 export const Workouts = () => {
-    return (
 
-        // <NavBarLogin />
+    return (
         <div className='controlUserWeb'>
             <h1 className='titleUserWeb'>WORKOUTS</h1>
             <div className='squareWorkouts'>
@@ -172,7 +171,6 @@ export const Workouts = () => {
                 </div>
             </div>
         </div>
-
 
     )
 }

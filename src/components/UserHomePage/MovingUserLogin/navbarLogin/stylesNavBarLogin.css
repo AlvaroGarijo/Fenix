@@ -1,3 +1,10 @@
+.orderLogin{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    flex-wrap: nowrap;
+}
+
 .NavBarUser {
     display: flex;
     flex-direction: column;
