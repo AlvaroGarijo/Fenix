@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 import { MovingRouter } from './MovingRouter';
-
+// import { UserLoginPages } from './UserLoginPages';
 
 
 ReactDOM.render(
@@ -11,7 +11,8 @@ ReactDOM.render(
       <MovingRouter />
 
       {/* if()----condición si existe un token, llevar directamente a LOGIN */}
-      {/* <UserLoginPages/> */}
+      {/* <UserLoginPages /> */}
+
    </>
    , document.querySelector('#root')
 );

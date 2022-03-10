@@ -11,16 +11,10 @@ import { Tarifas } from '../../NavBarPages/Tarifas';
 import { Opinions } from '../../NavBarPages/Opinions';
 import { Home } from '../../Pages/Home';
 import { FreePage } from '../../FreePage/FreePage';
-import { UserLoginHome } from '../UserHomePage/UserLoginHome';
-import { Planing } from '../UserHomePage/MovingUserLogin/navbarLogin/planing/Planing';
-import { Workouts } from '../UserHomePage/MovingUserLogin/navbarLogin/workouts/Workouts';
-import { ToAddClient } from '../UserHomePage/MovingUserLogin/navbarLogin/newUser/ToAddClient';
-import { Clients } from '../UserHomePage/MovingUserLogin/navbarLogin/clients/Clients';
 import { MovingRouter } from '../../MovingRouter';
-
-
-
-
+import { NavBarLogin } from '../UserHomePage/MovingUserLogin/navbarLogin/NavBarLogin';
+import { LinkNavBarRoute } from '../UserHomePage/MovingUserLogin/navbarLogin/LinkNavBarRoute';
+import { NotFoundPage } from '../notFound/NotFoundPage';
 
 const LineaDeRuta = () => {
     return (
@@ -34,11 +28,14 @@ const LineaDeRuta = () => {
                 <Route path="/Tarifas" element={<Tarifas />} />
                 <Route path="/Opinions" element={<Opinions />} />
                 <Route path="/FreePage" element={<FreePage />} />
-                <Route path="/UserLoginHome" element={<UserLoginHome />} />
-                <Route path="/Planing" element={<Planing />} />
-                <Route path="/Workouts" element={<Workouts />} />
-                <Route path="/ToAddClients" element={<ToAddClient />} />
-                <Route path="/Clients" element={<Clients />} />
+                <Route
+                    path="/*" element={
+
+                        <NavBarLogin />
+                        // <LinkNavBarRoute />
+
+                    } />
+                <Route path="*" element={<NotFoundPage />} />
             </Routes>
 
         </BrowserRouter>
