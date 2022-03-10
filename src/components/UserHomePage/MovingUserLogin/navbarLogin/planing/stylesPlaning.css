@@ -4,7 +4,13 @@
     margin-top: 20px;
 }
 
-
+.searchClient{
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: -20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.6rem;
+}
 .squarePlaning{
     display:flex;
     justify-content: space-around;
@@ -18,16 +24,27 @@
     display: flex;
     flex-direction: column;
     background-color: rgb(236, 238, 234);
-    box-shadow: 6px 6px 4px rgb(141, 141, 141);
-    width: 35%;
-    height: 80%;
+    box-shadow: 6px 6px 4px rgb(204, 204, 204);
+    width: 30%;
+    height: 70%;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .internalUser,
 .internalWork{
+    width:80%;
+    height: 70%;
     display: flex;
     flex-direction: column;
+    text-align: center;
+    margin:auto;
+    box-shadow: 3px 3px 3px 2px rgb(143, 143, 143);
+
+     padding:3%;
+}
+
+.fa-angles-left{
+    font-size: 4rem;
 }
 
 

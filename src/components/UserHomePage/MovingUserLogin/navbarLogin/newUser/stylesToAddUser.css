@@ -6,15 +6,41 @@
    
 }
 
+
+.allFormClient{
+   background-color: rgb(242, 238, 238);
+   box-shadow: 5px 5px 5px lightgray;
+   padding: 5%;  
+   margin-bottom: 10%; 
+}
 .titleAddClient{
-   background-color: green;
+   font-family: Arial, Helvetica, sans-serif;
    width: 70%;
    text-align: center;
+   margin-bottom: 5%;
 }
 
 .formAddClient{
-   background-color: goldenrod;
+   display: flex;
+   justify-content: left;
+   font-family: Arial, Helvetica, sans-serif;
+   padding:5%;
    width: 100%;
    text-align: center;
+   
   
+}
+
+.addFormuClient{
+   font-size:1.3rem;
+   width: 100px;
+   margin-bottom:1%;
+}
+.addFormuClient2{
+   height: 30px;
+   border:none;
+   padding-left:20px ;
+   margin-left: 10px;
+   box-shadow: 2px 2px 2px gray;
+   width: 300px;
 }
