@@ -1,146 +1,131 @@
 @font-face {
-    font-family: EastBorder;
-    src: local('EastBorder.ttf');
-    font-family: nevis;
-    src: local('nevis.ttf');
+  font-family: EastBorder;
+  src: local("EastBorder.ttf");
+  font-family: nevis;
+  src: local("nevis.ttf");
 }
 
 .orderLogin {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
-
-.orderFirst {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 45%;
-
+  background-image: url("../../../public/img/imgBack.jpg") repeat;
 }
 
 .imgGroup {
-    width: 100%;
-    height: 700px;
-    box-shadow: 3px 3px 3px lightgray;
+  height: 700px;
+  margin-right: 400px;
+  box-shadow: 3px 3px 3px lightgray;
 }
 
 .family {
-    width: 70%;
-    font-family: Helvetica, sans-serif;
-    font-size: 3rem;
-    align-items: center;
-    text-align: center;
-    margin-bottom: 8%;
+  width: 70%;
+  font-family: Helvetica, sans-serif;
+  font-size: 3rem;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 8%;
 }
 
 .orderSecond {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 30%;
-    height: 800px;
-    background-color: rgb(226, 232, 245);
-    box-shadow: 2px 2px 2px lightgray;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5%;
+  height: 800px;
+  background-color: rgb(226, 232, 245);
+  box-shadow: 2px 2px 2px lightgray;
 }
 
 .formLogin {
-    width: 90%;
+  width: 90%;
 }
 
 .contentForm {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    background-color: rgb(207, 222, 253);
-    padding:5%;
-    box-shadow: 2px 2px 2px rgb(211, 211, 211);
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: rgb(207, 222, 253);
+  padding: 5%;
+  box-shadow: 2px 2px 2px rgb(211, 211, 211);
 }
 
 .nameForm,
 .lastNameForm,
 .emailForm,
 .passwordForm,
-.passwordFormConfirm{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    padding: 10px;
-
+.passwordFormConfirm {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 10px;
 }
-
 
 .internalForm1 {
-    color: black;
-    font-size: 1.2rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+  font-size: 1.2rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.internalForm2{
-    border-radius: 10px;
-    border: none;
-    margin-top: 5px;
-    padding:10px;
-    padding-left: 20px;
-    border: 1px solid rgb(210, 216, 218);
-    border-radius: 10px;
-    box-shadow: 1px 5px 5px rgba(128, 128, 128, 0.404);
+.internalForm2 {
+  border-radius: 10px;
+  border: none;
+  margin-top: 5px;
+  padding: 10px;
+  padding-left: 20px;
+  border: 1px solid rgb(210, 216, 218);
+  border-radius: 10px;
+  box-shadow: 1px 5px 5px rgba(128, 128, 128, 0.404);
 }
 
-.phoneNumber{
-    margin-left: 10px;
-    margin-top: 20px;
-    box-shadow: 1px 1px 1px lightblue;
+.phoneNumber {
+  margin-left: 10px;
+  margin-top: 20px;
+  box-shadow: 1px 1px 1px lightblue;
 }
 
 .acceptConditionsOrder {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
 
-    padding: 10px;
+  padding: 10px;
 }
 
 .acceptTerms {
-    font-size: 1.3rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding-right: 10px;
-    margin-top: 20px;
+  font-size: 1.3rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-right: 10px;
+  margin-top: 20px;
 }
 
 .termCond {
-    color: blueviolet;
-    font-style: oblique;
+  color: blueviolet;
+  font-style: oblique;
 }
 
 .buttomForm {
-    color: white;
-    height: 40px;
-    width: 120px;
-    letter-spacing: 2px;
-    background-color: dodgerblue;
-    border: none;
-    box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.653);
-    margin-top: 10px;
+  color: white;
+  height: 40px;
+  width: 120px;
+  letter-spacing: 2px;
+  background-color: dodgerblue;
+  border: none;
+  box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.653);
+  margin-top: 10px;
 }
 
-.buttomForm:hover{
-    transition: all .3s ease;
-    transform: scale(1.1);
-    background-color: rgb(122, 122, 0);
+.buttomForm:hover {
+  transition: all 0.3s ease;
+  transform: scale(1.1);
+  background-color: rgb(122, 122, 0);
 }
 
 @media only screen and (max-width: 1500px) {
-    .imgGroup {
-        height: 500px;
-    }
-    .orderSecond{
-        height: 60%;
-        width: 50%;
-        padding: 3%
-    }
-    
-    
+  .imgGroup {
+    height: 500px;
   }
+  .orderSecond {
+    height: 60%;
+    width: 50%;
+    padding: 3%;
+  }
+}

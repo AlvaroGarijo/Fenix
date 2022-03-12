@@ -12,9 +12,8 @@ import { Opinions } from '../../NavBarPages/Opinions';
 import { Home } from '../../Pages/Home';
 import { FreePage } from '../../FreePage/FreePage';
 import { MovingRouter } from '../../MovingRouter';
-import { NavBarLogin } from '../UserHomePage/MovingUserLogin/navbarLogin/NavBarLogin';
-import { LinkNavBarRoute } from '../UserHomePage/MovingUserLogin/navbarLogin/LinkNavBarRoute';
 import { NotFoundPage } from '../notFound/NotFoundPage';
+import { Dashboard } from '../UserHomePage/Dashboard';
 
 const LineaDeRuta = () => {
     return (
@@ -29,10 +28,13 @@ const LineaDeRuta = () => {
                 <Route path="/Opinions" element={<Opinions />} />
                 <Route path="/FreePage" element={<FreePage />} />
                 <Route
-                    path="/*" element={
+                    path="/Dashboard" element={
+                        
+                        <div style={{display:"flex", justifyContent:"space-between"}}>
+                            <Dashboard/>
+                        </div>
+                       
 
-                        // <NavBarLogin />
-                        <LinkNavBarRoute />
 
                     } />
                 <Route path="*" element={<NotFoundPage />} />

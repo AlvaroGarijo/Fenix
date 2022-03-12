@@ -11,7 +11,7 @@ ReactDOM.render(
       <MovingRouter />
 
       {/* if()----condición si existe un token, llevar directamente a LOGIN */}
-      {/* <UserLoginPages /> */}
+      {/* <PrivateRouter /> */}
 
    </>
    , document.querySelector('#root')
