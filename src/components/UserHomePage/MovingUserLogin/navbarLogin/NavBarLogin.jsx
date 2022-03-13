@@ -1,5 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { Planing } from "./planing/Planing";
+import { Clients } from "./clients/Clients";
+import { Workouts } from "./workouts/Workouts";
+import { ToAddClient } from "./newUser/ToAddClient";
 import "./stylesNavBarLogin.css";
 
 export const NavBarLogin = () => {
@@ -14,16 +18,16 @@ export const NavBarLogin = () => {
         <div className="nameUser">Nombre y Apellidos</div>
         <div className="listUserLog">
           <li>
-            <Link to="/Planing">Planifica</Link>
+            <Link to="/Planing">Planing</Link>
           </li>
           <li>
-            <Link to="/Clients">Clients</Link>
+            <a href={<Workouts />}>Workouts</a>
           </li>
           <li>
-            <Link to="/Workouts">Workouts</Link>
+            <a href={<Clients />}>Clientes</a>
           </li>
           <li>
-            <Link to="/ToAddClient">Añadir Clientes</Link>
+            <a href={<ToAddClient />}>Añadir Cliente</a>
           </li>
         </div>
         <img

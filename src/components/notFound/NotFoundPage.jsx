@@ -1,10 +1,20 @@
-import React from 'react'
+import React from "react";
+import "./styleNotFound.css";
 
 export const NotFoundPage = () => {
-    return (
-        <div>
-            <h1> 404!  Upsss No has encontrado la página</h1>
-            <h3>Intenta darte de alta o inicia sesión</h3>
-        </div>
-    )
-}
+  return (
+    <div className="notFound">
+      <h1> 404! Upsss No has encontrado la página</h1>
+      <h3>
+        Intenta{" "}
+        <a className="goLogin" href="./Login">
+          darte de alta{" "}
+        </a>{" "}
+        o{" "}
+        <a className="goSesion" href="/StartSesion">
+          inicia sesión
+        </a>{" "}
+      </h3>
+    </div>
+  );
+};

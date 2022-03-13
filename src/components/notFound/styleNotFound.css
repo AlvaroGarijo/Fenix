@@ -1,0 +1,17 @@
+.notFound {
+  margin: auto;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  width: 60%;
+  height: 50%;
+  text-align: center;
+  border: 1px solid gray;
+  padding: 10%;
+}
+
+.goLogin,
+.goSesion {
+  text-decoration: none;
+  font-style: oblique;
+  color: rgb(119, 101, 0);
+}

@@ -1,18 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import {BrowserRouter} from 'react-router-dom'
 
-import { MovingRouter } from './MovingRouter';
-// import { UserLoginPages } from './UserLoginPages';
+// import { MovingRouter } from './MovingRouter';
+import { UserLoginPages } from './UserLoginPages';
+
 
 
 ReactDOM.render(
    //HomePage Renderizada
-   <>
-      <MovingRouter />
+   <BrowserRouter>
+   
+     {/* <MovingRouter />  */}
 
       {/* if()----condición si existe un token, llevar directamente a LOGIN */}
-      {/* <PrivateRouter /> */}
-
-   </>
-   , document.querySelector('#root')
+    <UserLoginPages/>
+    </BrowserRouter>
+    ,document.querySelector('#root')
 );
