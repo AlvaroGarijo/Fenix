@@ -6,6 +6,7 @@
 }
 
 .orderParagraph {
+  background-color: rgba(255, 255, 255, 0.249);
   position: absolute;
   width: 50%;
   margin-top: 15%;

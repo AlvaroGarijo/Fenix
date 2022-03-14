@@ -5,9 +5,9 @@ import { NavBarLogin } from "./MovingUserLogin/navbarLogin/NavBarLogin";
 
 export const Dashboard = () => {
   return (
-    <>
+    <div className="orderDashboard">
       <NavBarLogin />
       <LinkNavBarRoute />
-    </>
+    </div>
   );
 };

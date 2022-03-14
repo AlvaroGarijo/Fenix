@@ -1,131 +1,72 @@
-@font-face {
-  font-family: EastBorder;
-  src: local("EastBorder.ttf");
-  font-family: nevis;
-  src: local("nevis.ttf");
-}
-
-.orderLogin {
-  background-image: url("../../../public/img/imgBack.jpg") repeat;
-}
-
-.imgGroup {
-  height: 700px;
-  margin-right: 400px;
-  box-shadow: 3px 3px 3px lightgray;
-}
-
-.family {
-  width: 70%;
-  font-family: Helvetica, sans-serif;
-  font-size: 3rem;
-  align-items: center;
-  text-align: center;
-  margin-bottom: 8%;
-}
-
-.orderSecond {
+.orderStartLogin {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-left: 5%;
-  height: 800px;
-  background-color: rgb(226, 232, 245);
-  box-shadow: 2px 2px 2px lightgray;
+  margin: auto;
+  background-image: url(../../../public/img/loginImg.jpg);
+  height: 90vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
-.formLogin {
-  width: 90%;
+.orderLoginSquare {
+  width: 25%;
+  padding: 5%;
+  background-color: rgba(255, 255, 255, 0.598);
+  border: 1px solid rgb(214, 212, 212);
+  box-shadow: 3px 3px 3px rgba(177, 170, 170, 0.45);
+  margin: 5%;
 }
 
-.contentForm {
+.formUserLogin {
   display: flex;
   flex-direction: column;
-  width: 100%;
-  background-color: rgb(207, 222, 253);
+  align-items: center;
+  justify-content: center;
   padding: 5%;
-  box-shadow: 2px 2px 2px rgb(211, 211, 211);
 }
 
 .nameForm,
-.lastNameForm,
 .emailForm,
-.passwordForm,
-.passwordFormConfirm {
+.passwordForm {
   display: flex;
   flex-direction: column;
-  width: 100%;
-  padding: 10px;
+  justify-content: center;
+  align-items: center;
 }
 
 .internalForm1 {
-  color: black;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 1.2rem;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 2%;
+  margin-top: 30px;
 }
 
 .internalForm2 {
-  border-radius: 10px;
-  border: none;
-  margin-top: 5px;
-  padding: 10px;
+  width: 250px;
+  height: 40px;
+  margin-top: 10px;
   padding-left: 20px;
+  font-family: Helvetica;
   border: 1px solid rgb(210, 216, 218);
   border-radius: 10px;
   box-shadow: 1px 5px 5px rgba(128, 128, 128, 0.404);
 }
 
-.phoneNumber {
-  margin-left: 10px;
-  margin-top: 20px;
-  box-shadow: 1px 1px 1px lightblue;
-}
-
-.acceptConditionsOrder {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-
-  padding: 10px;
-}
-
-.acceptTerms {
-  font-size: 1.3rem;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  padding-right: 10px;
-  margin-top: 20px;
-}
-
-.termCond {
-  color: blueviolet;
-  font-style: oblique;
+.acceptOrder {
+  margin-top: 50px;
 }
 
 .buttomForm {
+  width: 300px;
+  padding: 6px;
+  font-size: 1.5rem;
+  letter-spacing: 5px;
+  background-color: rgb(51, 119, 245);
   color: white;
-  height: 40px;
-  width: 120px;
-  letter-spacing: 2px;
-  background-color: dodgerblue;
   border: none;
-  box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.653);
-  margin-top: 10px;
-}
-
-.buttomForm:hover {
-  transition: all 0.3s ease;
-  transform: scale(1.1);
-  background-color: rgb(122, 122, 0);
-}
-
-@media only screen and (max-width: 1500px) {
-  .imgGroup {
-    height: 500px;
-  }
-  .orderSecond {
-    height: 60%;
-    width: 50%;
-    padding: 3%;
-  }
+  box-shadow: 5px 5px 5px grey;
 }

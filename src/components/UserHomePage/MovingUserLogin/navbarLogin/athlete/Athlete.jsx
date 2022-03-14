@@ -3,11 +3,11 @@ import { useState, useEffect } from "react";
 
 import "./styleClient.css";
 
-export const Clients = () => {
+export const Athlete = () => {
   const [users, setUsers] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost/api/v1/user/read")
+    fetch("http://localhost:8000/api/v1/user/read")
       .then((data) => data.json())
       .then((data) => {
         setUsers(data["user"]);

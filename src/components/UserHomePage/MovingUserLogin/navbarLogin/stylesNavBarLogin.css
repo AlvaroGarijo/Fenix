@@ -1,9 +1,9 @@
-/* .orderLogin{
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
-    flex-wrap: nowrap;
-} */
+.orderLogin {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  flex-wrap: nowrap;
+}
 
 .NavBarUser {
   display: flex;

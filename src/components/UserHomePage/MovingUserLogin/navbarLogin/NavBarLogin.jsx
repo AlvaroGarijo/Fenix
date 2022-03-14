@@ -1,9 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Planing } from "./planing/Planing";
-import { Clients } from "./clients/Clients";
-import { Workouts } from "./workouts/Workouts";
-import { ToAddClient } from "./newUser/ToAddClient";
+
 import "./stylesNavBarLogin.css";
 
 export const NavBarLogin = () => {
@@ -21,13 +18,13 @@ export const NavBarLogin = () => {
             <Link to="/Planing">Planing</Link>
           </li>
           <li>
-            <a href={<Workouts />}>Workouts</a>
+            <Link to="/Workouts">Workouts</Link>
           </li>
           <li>
-            <a href={<Clients />}>Clientes</a>
+            <Link to="/Athlete">Atleta</Link>
           </li>
           <li>
-            <a href={<ToAddClient />}>Añadir Cliente</a>
+            <Link to="/ToAddClient">Añadir Cliente</Link>
           </li>
         </div>
         <img

@@ -1,119 +1,107 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-
+  box-sizing: border-box;
+  margin: 0;
 }
 
 @font-face {
-    font-family: EastBorder;
-    src: local('EastBorder.ttf');
-
+  font-family: EastBorder;
+  src: local("EastBorder.ttf");
 }
 
-
 .orderNav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    width: 100%;
-    height: 140px;
-    padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  height: 140px;
+  padding-top: 20px;
 }
 
 .orderLogo {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .logoNav {
-    margin-left: 50px;
-    width: 110px;
-    height: 110px;
-
+  margin-left: 50px;
+  width: 110px;
+  height: 110px;
 }
 
 .titleNav {
-    height: 95px;
-    margin-top: 35px;
-    width: 300px;
-    font-style: normal;
-    font-size: 2.4rem;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: #000000;
-    text-align: left;
-
+  height: 95px;
+  margin-top: 35px;
+  width: 300px;
+  font-style: normal;
+  font-size: 2.4rem;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: #000000;
+  text-align: left;
 }
 
 .titleNav:hover,
-.listNavFenix:hover{
-    color:#615f00e1;
+.listNavFenix:hover {
+  color: #615f00e1;
 }
 
 .orderListNav {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-
-
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 .listNav {
-    width: 500px;
-    padding-right: 60px;
-    margin-top: 10px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 1.4rem;
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-
+  width: 500px;
+  padding-right: 60px;
+  margin-top: 10px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 1.4rem;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .orderButton {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .iniciaSesion,
 .login {
-    margin-right: 20px;
-    color: white;
-    width: 100px;
-    height: 50px;
-    font-family: Helvetica;
-    letter-spacing: 1px;
-    font-size: 1rem;
-    background: #8b8900e1;
-    box-shadow: 3px 3px 3px rgb(180, 179, 179);
-    transition: all .3s ease;
-    border: none;
-
+  margin-right: 20px;
+  color: white;
+  width: 100px;
+  height: 50px;
+  font-family: Helvetica;
+  letter-spacing: 1px;
+  font-size: 1rem;
+  background: #8b8900e1;
+  box-shadow: 3px 3px 3px rgb(180, 179, 179);
+  transition: all 0.3s ease;
+  border: none;
 }
 .login:hover,
 .login a:hover,
 .iniciaSesion:hover,
-.iniciaSesion a:hover{
-    color:black;
-    transform: scale(1.15);
+.iniciaSesion a:hover {
+  color: black;
+  transform: scale(1.15);
 }
 
-
 a {
-    color: inherit;
-    text-decoration: none;
+  color: inherit;
+  text-decoration: none;
 }
 
 @media only screen and (max-width: 1500px) {
-     .orderButton{
-         display:flex;
-         flex-wrap: nowrap;
-         margin-left: -40px;
-     }
-    
+  .orderButton {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: -40px;
+  }
 }

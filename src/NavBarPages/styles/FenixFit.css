@@ -1,143 +1,137 @@
 .imagesCarrousel {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 
 .imgFF {
-    width: 32%;
-    height: 400px;
-    box-shadow: 5px 10px 10px gray;
-   
+  width: 32%;
+  height: 400px;
+  box-shadow: 5px 10px 10px gray;
 }
 
 .imgFFGreat {
-    width: 33%;
-    margin: 1%;
-    box-shadow: 5px 10px 10px gray;
-   
+  width: 33%;
+  margin: 1%;
+  box-shadow: 5px 10px 10px gray;
 }
 
-
 .orderInfo1 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 .parrafoFit {
-    width: 80%;
-    font-family: Helvetica, sans-serif;
-    margin-top: 100px;
-    color:rgb(20, 19, 19);
-    margin-bottom: 100px;
-    padding: 10px 60px 10px 60px;
-    box-shadow: 2px 1px 2px 1px lightgray;
-    font-size: 3rem;
-    text-align: center;
-
+  width: 80%;
+  font-family: Helvetica, sans-serif;
+  margin-top: 100px;
+  color: rgb(20, 19, 19);
+  margin-bottom: 100px;
+  padding: 10px 60px 10px 60px;
+  box-shadow: 2px 1px 2px 1px lightgray;
+  font-size: 3rem;
+  text-align: center;
 }
 
 .order2Info1 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .principalImg {
-    width: 75%;
-    height: 25%;
-    margin-bottom: 2%;
-    box-shadow: 5px 5px 5px gray;
+  width: 75%;
+  height: 25%;
+  margin-bottom: 2%;
+  box-shadow: 5px 5px 5px gray;
 }
 
 .butomPruebaFF {
-    width: 300px;
-    height: 200px;
-    color: white;
-    letter-spacing: 4px;
-    background-color: #B6BA00;
-    border: none;
-    box-shadow: 5px 5px 5px gray;
-    font-size: 3.5rem;
-    font-family: Impact;
-    margin-top: 100px;
-    transition: all .5s ease;
+  width: 300px;
+  height: 200px;
+  color: white;
+  letter-spacing: 4px;
+  background-color: #b6ba00;
+  border: none;
+  box-shadow: 5px 5px 5px gray;
+  font-size: 3.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 100px;
+  transition: all 0.5s ease;
 }
 
-.butomPruebaFF:hover{
-    background-color: rgb(190, 190, 36);
-    color: black;
-    transform: scale(1.10);
+.butomPruebaFF:hover {
+  background-color: rgb(190, 190, 36);
+  color: black;
+  transform: scale(1.1);
 }
 
 .orderInfo2 {
-    display: flex;
-    justify-content: space-around;
-    margin: 5%;
+  display: flex;
+  justify-content: space-around;
+  margin: 5%;
 }
 
 .listFit2 {
-    margin: 30px;
-    display: flex;
-    flex-direction: column;
-    list-style: none;
-    justify-content: center;
-    align-items: center;
-    font-size: 3rem;
-    line-height: 7rem;
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  line-height: 7rem;
 }
 
-.listFenix:hover{
-    transition: all .4s ease;
-    transform: scale(1.2);
-    color: #737500;
-    font-style: oblique;
+.listFenix:hover {
+  transition: all 0.4s ease;
+  transform: scale(1.2);
+  color: #737500;
+  font-style: oblique;
 }
 
 .loMerecen {
-    text-align: center;
-    margin: 30px;
+  text-align: center;
+  margin: 30px;
 }
 
 .imgResponsive {
-    width: 300px;
-    height: 200px;
-    border-radius: 10px;
-    box-shadow: 3px 3px 3px 3px gray;
-    margin-top: 20px;
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px 3px gray;
+  margin-top: 20px;
 }
 
 .logAppOrder {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .logApp {
-    margin: 15px;
-    width: 200px;
-    height: 75px;
+  margin: 15px;
+  width: 200px;
+  height: 75px;
 }
 
 @media screen and (max-width: 1500px) {
-    .imagesCarrousel{
-        width: 100%;
-        display: flex;
-        flex-wrap: nowrap;
-    }
-    .imgFF, 
-    .imgFFGreat{
-        width: 33.3%;
-        height: 300px
-    }
+  .imagesCarrousel {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  .imgFF,
+  .imgFFGreat {
+    width: 33.3%;
+    height: 300px;
+  }
 
-    .principalImg{
-        width: 100%;
-    }
-    
+  .principalImg {
+    width: 100%;
+  }
 }

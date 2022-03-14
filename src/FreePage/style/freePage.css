@@ -1,106 +1,100 @@
 @font-face {
-    font-family: nevis;
-    src: local('nevis.ttf');
+  font-family: nevis;
+  src: local("nevis.ttf");
 }
 
 @font-face {
-    font-family: EastBorder;
-    src: local('EastBorder.ttf');
-    
+  font-family: EastBorder;
+  src: local("EastBorder.ttf");
 }
 
 .fondContainer {
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 200px;
-    padding-bottom: 200px;
+  background-image: url(../../../public/img/dumbles.jpg);
+  height: 90vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .cuadroOpaco {
-    border: 1px solid lightgray;
-    box-shadow: 6px 6px 6px lightgrey;
-    border-radius: 15px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-
+  border: 1px solid lightgray;
+  box-shadow: 2px 2px 2px lightgrey;
+  background-color: rgba(255, 255, 255, 0.53);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .orderFormFree1 {
-    padding: 30px;
-    margin: 5%;
-    border: 1px solid lightgray;
-    border-radius: 15px;
-    box-shadow: 5px 5px 5px lightgrey;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  padding: 30px;
+  margin: 5%;
+  border: 1px solid lightgray;
+  box-shadow: 5px 5px 5px lightgrey;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .orderFormFree2 {
-    padding: 30px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .iconFreePage {
-    margin: 10px;
-    width: 100px;
-    height: 100px;
-
+  margin: 10px;
+  width: 100px;
+  height: 100px;
 }
 
 .h2FreePage {
-    font-family: Tahoma, sans-serif;
-    padding: 10px;
-
+  font-family: Tahoma, sans-serif;
+  padding: 10px;
 }
 
 .inputFree {
-    border-radius: 10px;
-    border: 1px solid lightgray;
-    width: 250px;
-    padding-left: 30px;
-    margin-bottom: 20px;
-
+  height: 30px;
+  width: 250px;
+  border: none;
+  box-shadow: 2px 2px 2px gray;
+  padding-left: 30px;
 }
-
-.acceptTermsFree {
-    padding-bottom: 20px;
-}
-
 
 .buttomFormFree {
-    background-color: rgb(172, 212, 24);
-    box-shadow: 5px 5px 5px grey;
-    padding: 10px;
-    border-radius: 15px;
-    border: none;
+  background-color: rgb(172, 212, 24);
+  box-shadow: 5px 5px 5px grey;
+  padding: 10px;
+  margin-top: 30px;
+  border: none;
 }
 
 .FenixFree {
-    font-family: EastBorder;
-    font-size: 3rem;
-   
+  font-family: EastBorder;
+  font-size: 3rem;
 }
 
-.imgFreePage{
-    width: 400px;
-    height: 400px;
+.imgFreePage {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
 }
 
 .sloganFreePage {
-    padding-top: 10px;
-    text-align: center;
-    font-size: 2.8rem;
-    font-family: EastBorder;
-    width: 70%;
+  padding-top: 10px;
+  text-align: center;
+  font-size: 2.8rem;
+  font-family: EastBorder;
+  width: 70%;
 }
